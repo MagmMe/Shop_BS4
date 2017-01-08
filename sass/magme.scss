@@ -8,6 +8,14 @@
         }
         /* Navigation*/
 
+        a{
+            color: #fff;
+
+            &:hover{
+                color:pink;
+            }
+        }
+
         .navbar {
             background-color: transparent;
         }
@@ -127,6 +135,18 @@
         .top-nav-collapse {
             background-color: #1C2331;
         }
+
+
+        // Hero
+
+      #hero-main{
+        font-family: 'Allura', cursive;
+        font-size: 4rem;
+      }
+
+      #hero-sub {
+        font-weight: 100;
+      }
 
         // HomePage
 

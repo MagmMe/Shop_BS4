@@ -6537,6 +6537,11 @@ body,
   height: 100%; }
 
 /* Navigation*/
+a {
+  color: #fff; }
+  a:hover {
+    color: pink; }
+
 .navbar {
   background-color: transparent; }
 
@@ -6609,6 +6614,13 @@ body,
 
 .top-nav-collapse {
   background-color: #1C2331; }
+
+#hero-main {
+  font-family: 'Allura', cursive;
+  font-size: 4rem; }
+
+#hero-sub {
+  font-weight: 100; }
 
 .main-magme {
   max-width: 1400px;
