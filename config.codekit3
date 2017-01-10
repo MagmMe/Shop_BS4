@@ -197,6 +197,14 @@
 		"oAP": "\/font\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
+	"\/img\/baner1.jpg": {
+		"ft": 16384,
+		"iS": 370617,
+		"oA": 0,
+		"oAP": "\/img\/baner1.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/cart_mini1.jpg": {
 		"ft": 16384,
 		"iS": 10552,
@@ -285,6 +293,14 @@
 		"oAP": "\/img\/lightbox\/Thumbs.db",
 		"oF": 0
 		},
+	"\/img\/login_form_img.jpg": {
+		"ft": 16384,
+		"iS": 54803,
+		"oA": 0,
+		"oAP": "\/img\/login_form_img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/overlays\/01.png": {
 		"ft": 32768,
 		"iS": 211,
@@ -362,6 +378,54 @@
 		"oA": 2,
 		"oAP": "\/img\/overlays\/Thumbs.db",
 		"oF": 0
+		},
+	"\/img\/product_1.jpg": {
+		"ft": 16384,
+		"iS": 130847,
+		"oA": 0,
+		"oAP": "\/img\/product_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_2.jpg": {
+		"ft": 16384,
+		"iS": 139963,
+		"oA": 0,
+		"oAP": "\/img\/product_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_3.jpg": {
+		"ft": 16384,
+		"iS": 168352,
+		"oA": 0,
+		"oAP": "\/img\/product_3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_4.jpg": {
+		"ft": 16384,
+		"iS": 382001,
+		"oA": 0,
+		"oAP": "\/img\/product_4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_5.jpg": {
+		"ft": 16384,
+		"iS": 70256,
+		"oA": 0,
+		"oAP": "\/img\/product_5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_6.jpg": {
+		"ft": 16384,
+		"iS": 95500,
+		"oA": 0,
+		"oAP": "\/img\/product_6.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
