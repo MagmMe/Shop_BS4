@@ -6642,6 +6642,38 @@ a {
 .main-magme {
   max-width: 1400px;
   margin-top: 40px; }
+  .main-magme .sidebar-offcanvas .list-group a {
+    color: purple;
+    background-color: #ede7f6; }
+  .main-magme .sidebar-offcanvas .list-group-item.active {
+    color: purple;
+    text-shadow: 0px 1px white; }
+  .main-magme .list-group-item.active, .main-magme .list-group-item.active:focus, .main-magme .list-group-item.active:hover {
+    border-color: pink;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/pink+0,ef017c+100 */
+    background: pink;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, pink 0%, #f796d3 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, pink 0%, #f796d3 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, pink 0%, #f796d3 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='pink', endColorstr='rgba(247,150,211,1)',GradientType=0 );
+    /* IE6-9 */ }
+  .main-magme #accordion .card-header {
+    border-color: pink;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/pink+0,ef017c+100 */
+    background: pink;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, pink 0%, #f796d3 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, pink 0%, #f796d3 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, pink 0%, #f796d3 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='pink', endColorstr='rgba(247,150,211,1)',GradientType=0 );
+    /* IE6-9 */ }
 
 .home-magme .second-menu {
   padding-top: 20px; }
@@ -6656,6 +6688,72 @@ a {
 .home-magme .extra-margins {
   margin-top: 1rem;
   margin-bottom: 2.5rem; }
+
+.ribbon-wrapper-new {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px; }
+
+.ribbon-new {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #F78AE0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(pink), to(#F78AE0));
+  background-image: -webkit-linear-gradient(top, pink, #F78AE0);
+  background-image: -moz-linear-gradient(top, pink, #F78AE0);
+  background-image: -ms-linear-gradient(top, pink, #F78AE0);
+  background-image: -o-linear-gradient(top, pink, #F78AE0);
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); }
+
+.ribbon-wrapper-promo {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px; }
+
+.ribbon-promo {
+  font: bold 15px Sans-Serif;
+  color: #fff;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #D4111F;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#D4111F), to(#D4117F));
+  background-image: -webkit-linear-gradient(top, #D4111F, #D4117F);
+  background-image: -moz-linear-gradient(top, #D4111F, #D4117F);
+  background-image: -ms-linear-gradient(top, #D4111F, #D4117F);
+  background-image: -o-linear-gradient(top, #D4111F, #D4117F);
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); }
 
 footer.page-footer {
   background-color: #1C2331;

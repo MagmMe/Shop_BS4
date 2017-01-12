@@ -427,6 +427,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/product_7.jpg": {
+		"ft": 16384,
+		"iS": 79419,
+		"oA": 0,
+		"oAP": "\/img\/product_7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_8.jpg": {
+		"ft": 16384,
+		"iS": 365422,
+		"oA": 0,
+		"oAP": "\/img\/product_8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_9.jpg": {
+		"ft": 16384,
+		"iS": 124877,
+		"oA": 0,
+		"oAP": "\/img\/product_9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -483,6 +507,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery-3.1.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/magme-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/magme-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/magme.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/magme-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
