@@ -5373,7 +5373,7 @@ button:focus {
   color: #fff !important;
   background-color: transparent; }
   .btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active, .btn-outline-white:active:focus {
-    color: #e6e6e6;
+    color: #e6e5e5;
     border-color: #fff;
     background-color: transparent; }
 
@@ -6536,6 +6536,11 @@ body,
 .view {
   height: 100%; }
 
+.view ul .arrow h1 a span {
+  color: pink; }
+  .view ul .arrow h1 a span:hover {
+    color: #ff0084; }
+
 /* Navigation*/
 a {
   color: #fff; }
@@ -6641,7 +6646,7 @@ a {
   transition: background .5s ease-in-out, padding .5s ease-in-out; }
 
 .top-nav-collapse {
-  background-color: #1C2331; }
+  background-color: rgba(28, 35, 49, 0.9); }
 
 #hero-main {
   font-family: 'Allura', cursive;

@@ -1,6 +1,5 @@
 (function(){
 
-
 	// Wysuwane Menu na urządzeniach mobilnych
 
 	 $(document).ready(function () {
@@ -18,21 +17,13 @@
  //        });
 
 
-	 // Hero Smooth scroll
-
-	// $(function() {
-	//   $('a[href*="#"]:not([href="#"])').click(function() {
-	//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	//       var target = $(this.hash);
-	//       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	//       if (target.length) {
-	//         $('html, body').animate({
-	//           scrollTop: target.offset().top
-	//         }, 1000);
-	//         return false;
-	//       }
-	//     }
-	//   });
-	// });
+	 	// Magme Hero Smooth Scroll
+		$('#start').on('click', function(e){
+		    e.preventDefault();
+		    var target= $('#end');
+		    $('html, body').stop().animate({
+		       scrollTop: target.offset().top
+		    }, 1000);
+		});
 
 }(jQuery));

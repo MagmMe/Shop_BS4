@@ -7,7 +7,7 @@
 		"uuidString": "92DA0F8C-3B60-4A16-8839-29DEFDA4641C"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/css\/bootstrap.css": {
 		"aP": 0,
@@ -472,6 +472,30 @@
 		"iS": 130847,
 		"oA": 0,
 		"oAP": "\/img\/product_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_10.jpg": {
+		"ft": 16384,
+		"iS": 168352,
+		"oA": 0,
+		"oAP": "\/img\/product_10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_11.jpg": {
+		"ft": 16384,
+		"iS": 390901,
+		"oA": 0,
+		"oAP": "\/img\/product_11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_12.jpg": {
+		"ft": 16384,
+		"iS": 93483,
+		"oA": 0,
+		"oAP": "\/img\/product_12.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1646,6 +1670,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -2185,6 +2213,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,

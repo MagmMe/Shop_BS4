@@ -1,1 +1,1 @@
-!function(){$(document).ready(function(){$('[data-toggle="offcanvas"]').click(function(){$(".row-offcanvas").toggleClass("active")})})}(jQuery);
+!function(){$(document).ready(function(){$('[data-toggle="offcanvas"]').click(function(){$(".row-offcanvas").toggleClass("active")})}),$("#start").on("click",function(t){t.preventDefault();var o=$("#end");$("html, body").stop().animate({scrollTop:o.offset().top},1e3)})}(jQuery);

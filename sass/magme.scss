@@ -6,7 +6,19 @@
         .view {
             height: 100%;
             // cursor: pointer;
+
+
         }
+
+        .view ul .arrow h1 a span{
+          color: pink;
+
+          &:hover{
+            color: #ff0084;
+          }
+
+        }
+
         /* Navigation*/
 
         a{
@@ -16,6 +28,7 @@
                 color:pink;
             }
         }
+
 
         .hm-gradient-light .mask,
         .hm-gradient-light .full-bg-img {
@@ -179,7 +192,7 @@
         }
 
         .top-nav-collapse {
-            background-color: #1C2331;
+            background-color: rgba(28, 35, 49, .9);
         }
 
 
@@ -534,6 +547,8 @@
               p {
                 margin-bottom: 0;
               }
+
+              .tag{}
             }
 
             .footer-center{
