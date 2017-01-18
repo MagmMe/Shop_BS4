@@ -221,6 +221,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/Credit-Card-Visa-And-Master-Card-PNG-HD.png": {
+		"ft": 32768,
+		"iS": 49916,
+		"oA": 0,
+		"oAP": "\/img\/Credit-Card-Visa-And-Master-Card-PNG-HD.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/credit.png": {
+		"ft": 32768,
+		"iS": 31865,
+		"oA": 0,
+		"oAP": "\/img\/credit.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/header.jpg": {
 		"ft": 16384,
 		"iS": 322837,
@@ -261,6 +277,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/icons\/down-chevron.png": {
+		"ft": 32768,
+		"iS": 281,
+		"oA": 0,
+		"oAP": "\/img\/icons\/down-chevron.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/ing.png": {
+		"ft": 32768,
+		"iS": 24948,
+		"oA": 0,
+		"oAP": "\/img\/ing.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/ING_logo.png": {
+		"ft": 32768,
+		"iS": 219993,
+		"oA": 0,
+		"oAP": "\/img\/ING_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/ingbw.png": {
+		"ft": 32768,
+		"iS": 15046,
+		"oA": 0,
+		"oAP": "\/img\/ingbw.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/lightbox\/default-skin.png": {
 		"ft": 32768,
 		"iS": 547,
@@ -298,6 +346,38 @@
 		"iS": 54803,
 		"oA": 0,
 		"oAP": "\/img\/login_form_img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/masterCard.png": {
+		"ft": 32768,
+		"iS": 18979,
+		"oA": 0,
+		"oAP": "\/img\/masterCard.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/MasterCard_logo.png": {
+		"ft": 32768,
+		"iS": 48742,
+		"oA": 0,
+		"oAP": "\/img\/MasterCard_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/mbank.jpg": {
+		"ft": 16384,
+		"iS": 27397,
+		"oA": 0,
+		"oAP": "\/img\/mbank.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/mbank.png": {
+		"ft": 32768,
+		"iS": 23976,
+		"oA": 0,
+		"oAP": "\/img\/mbank.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -379,6 +459,14 @@
 		"oAP": "\/img\/overlays\/Thumbs.db",
 		"oF": 0
 		},
+	"\/img\/pko.png": {
+		"ft": 32768,
+		"iS": 21646,
+		"oA": 0,
+		"oAP": "\/img\/pko.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/product_1.jpg": {
 		"ft": 16384,
 		"iS": 130847,
@@ -448,6 +536,54 @@
 		"iS": 124877,
 		"oA": 0,
 		"oAP": "\/img\/product_9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/przelewy24_01.png": {
+		"ft": 32768,
+		"iS": 15096,
+		"oA": 0,
+		"oAP": "\/img\/przelewy24_01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/Przelewy24_logo.png": {
+		"ft": 32768,
+		"iS": 12152,
+		"oA": 0,
+		"oAP": "\/img\/Przelewy24_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/przelewy24_platnosci.png": {
+		"ft": 32768,
+		"iS": 107382,
+		"oA": 0,
+		"oAP": "\/img\/przelewy24_platnosci.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/ssl.png": {
+		"ft": 32768,
+		"iS": 64255,
+		"oA": 0,
+		"oAP": "\/img\/ssl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/visa-logo-new.png": {
+		"ft": 32768,
+		"iS": 27458,
+		"oA": 0,
+		"oAP": "\/img\/visa-logo-new.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/visa.png": {
+		"ft": 32768,
+		"iS": 10109,
+		"oA": 0,
+		"oAP": "\/img\/visa.png",
 		"oF": 0,
 		"opt": 0
 		},

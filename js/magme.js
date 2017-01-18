@@ -9,6 +9,14 @@
  		 });
 	});
 
+	// $(".chevron-animate").hover(function(){
+ //        $(this).css("transform", "rotate(90deg)");
+ //        });
+
+	// $(".chevron-animate").active(function(){
+ //        $(this).css("transform", "rotate(90deg)");
+ //        });
+
 
 	 // Hero Smooth scroll
 

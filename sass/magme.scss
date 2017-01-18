@@ -5,6 +5,7 @@
         body,
         .view {
             height: 100%;
+            // cursor: pointer;
         }
         /* Navigation*/
 
@@ -14,6 +15,15 @@
             &:hover{
                 color:pink;
             }
+        }
+
+        .hm-gradient-light .mask,
+        .hm-gradient-light .full-bg-img {
+
+          background: #ff0084; /* fallback for old browsers */
+          background: -webkit-linear-gradient(to left, rgba(0, 0, 0, 0.6) , rgba(255,52,157, 0.2)); /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to left, rgba(0, 0, 0, 0.6) , rgba(255,52,157, 0.2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
 
         .navbar {
@@ -80,7 +90,7 @@
 
         // Koszyk i User Menu
 
-        .card-menu {
+        .cart-menu {
             margin-top: -20px;
 
             .nav-item {
@@ -156,6 +166,10 @@
 
             }
 
+            .dropdown-cart p {
+              font-size: 0.8rem;
+            }
+
         }
 
         .scrolling-navbar {
@@ -189,44 +203,159 @@
                 max-width: 1400px;
                 margin-top: 40px;
 
-            .sidebar-offcanvas .list-group a{
+                // Kolor Dividera i linii
 
-              color: purple;
-              background-color: #ede7f6;
+                .divider-new{
+                  color: #ff0084;
+                }
+                .divider-new::before, .divider-new::after {
+                      background: #ff0084;
+                    }
 
-
-            }
-
-            .sidebar-offcanvas .list-group-item.active{
-              color: purple;
-              text-shadow: 0px 1px white;;
-            }
-
-            .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-
-              border-color: pink;
-              /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/pink+0,ef017c+100 */
-              background: pink; /* Old browsers */
-              background: -moz-linear-gradient(top,  pink 0%, rgba(247,150,211,1) 100%); /* FF3.6-15 */
-              background: -webkit-linear-gradient(top,  pink 0%,rgba(247,150,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
-              background: linear-gradient(to bottom,  pink 0%,rgba(247,150,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='pink', endColorstr='rgba(247,150,211,1)',GradientType=0 ); /* IE6-9 */
-
-
-            }
+        // Menu Boczne
 
             #accordion{
 
                     .card-header{
-                      border-color: pink;
-                    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/pink+0,ef017c+100 */
-                    background: pink; /* Old browsers */
-                    background: -moz-linear-gradient(top,  pink 0%, rgba(247,150,211,1) 100%); /* FF3.6-15 */
-                    background: -webkit-linear-gradient(top,  pink 0%,rgba(247,150,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
-                    background: linear-gradient(to bottom,  pink 0%,rgba(247,150,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='pink', endColorstr='rgba(247,150,211,1)',GradientType=0 ); /* IE6-9 */
+                      border-color: #f48fb1;
+                      background-color: #f48fb1;
+
+
+                      &:hover{
+                        background-color: #f06292;
+                         -webkit-transition: all .75s ease-in-out;
+                         -moz-transition: all .35s ease-in-out;
+                          -ms-transition: all .35s ease-in-out;
+                           -o-transition: all .35s ease-in-out;
+                              transition: all .35s ease-in-out;
+                      }
+
+                      h5 a {
+                        color:#fff0f5;
+
+                        &:hover{
+                        color: #fff;
+                        }
+                      }
                     }
-            }
+
+                    .card-header.active{
+                        background-color: #f06292;
+                      }
+
+                    .card-header a span {
+                      -webkit-transform: rotate(0deg);
+                      -moz-transform:    rotate(0deg);
+                      -ms-transform:     rotate(0deg);
+                      -o-transform:      rotate(0deg);
+                      -webkit-transition: all .35s ease-in-out;
+                         -moz-transition: all .35s ease-in-out;
+                          -ms-transition: all .35s ease-in-out;
+                           -o-transition: all .35s ease-in-out;
+                              transition: all .35s ease-in-out;
+                    }
+
+                    .card-header a:focus span, .card-header a:hover span, .card-header a:active span {
+                      color: #fff;
+                      -webkit-transform: rotate(90deg);
+                      -moz-transform:    rotate(90deg);
+                      -ms-transform:     rotate(90deg);
+                      -o-transform:      rotate(90deg);
+                      -webkit-transition: all .35s ease-in-out;
+                         -moz-transition: all .35s ease-in-out;
+                          -ms-transition: all .35s ease-in-out;
+                           -o-transition: all .35s ease-in-out;
+                              transition: all .35s ease-in-out;
+
+                    }
+
+
+                    .list-group .list-group-item {
+                      color: #f06292;
+
+                        &:hover{
+                          color: #fff;
+                          background-color: pink;
+                          -webkit-transition: all .75s ease-in-out;
+                         -moz-transition: all .75s ease-in-out;
+                          -ms-transition: all .75s ease-in-out;
+                           -o-transition: all .75s ease-in-out;
+                              transition: all .75s ease-in-out;
+                        }
+
+                    }
+
+
+             } //Koniec #accordion /Menu Boczne/
+
+             // Wyszukiwarka
+
+             .search-sidebar .divider-new{
+                      margin-top: 20px;
+                      margin-bottom: 20px;
+                    }
+
+            // Konfigurator
+
+              .config-sidebar{
+
+                  select {
+                      border: 1px solid #111;
+                       background: transparent;
+                       width: 100%;
+                       padding: 5px 25px 5px 5px;
+                       font-size: 12px;
+                       border: 1px solid #ccc;
+                       height: 34px;
+                       -webkit-appearance: none;
+                       -moz-appearance: none;
+                       appearance: none;
+                        background: url(../img/icons/down-chevron.png) 96% / 5% no-repeat #e6e6e6;
+                       }
+
+                .divider-new{
+
+                      margin-top: 20px;
+                      margin-bottom: 20px;
+                  }
+
+              }
+
+
+                  // Kontakt
+
+                  .contact-card {
+
+                        .contact-title{
+                          font-family: 'Allura', cursive;
+                          font-size: 1.7rem;
+                        }
+
+                         span, a {
+                          color: #ff0084;
+                        }
+
+                     .divider-new{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    }
+                  }
+
+                  .newsletter-card {
+
+                      span, label{
+                        color: #ff0084;
+                        font-weight: 100;
+                      }
+
+                    .divider-new{
+                      margin-top: 20px;
+                      margin-bottom: 20px;
+                    }
+                  }
+
+
+
         }
 
         // Main Content - Right Side
@@ -336,12 +465,12 @@
           left: -5px;
           top: 15px;
           width: 120px;
-          background-color: #D4111F;
-          background-image: -webkit-gradient(linear, left top, left bottom, from(#D4111F), to(#D4117F));
-          background-image: -webkit-linear-gradient(top, #D4111F, #D4117F);
-          background-image:    -moz-linear-gradient(top, #D4111F, #D4117F);
-          background-image:     -ms-linear-gradient(top, #D4111F, #D4117F);
-          background-image:      -o-linear-gradient(top, #D4111F, #D4117F);
+          background-color: #D4117F;
+          background-image: -webkit-gradient(linear, left top, left bottom, from(#D4117F), to(#D4111F));
+          background-image: -webkit-linear-gradient(top, #D4117F, #D4111F);
+          background-image:    -moz-linear-gradient(top, #D4117F, #D4111F);
+          background-image:     -ms-linear-gradient(top, #D4117F, #D4111F);
+          background-image:      -o-linear-gradient(top, #D4117F, #D4111F);
           color: #fff;
           -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
           -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
@@ -378,7 +507,57 @@
         }
 
 
-                @media only screen and (max-width: 460px) {
+        // Footer
+
+        footer {
+            background-color: #fff;
+            box-shadow: -1px -2px 3px #ccc;
+
+          .footer-top{
+            background-color: #871857;  //#54627D
+            font-weight: 100;
+            color: #fff;
+            font-size: 0.8rem;
+
+              .contact-title{
+                font-family: 'Allura', cursive;
+              }
+
+              .column-footer{
+                padding: 5%;
+              }
+
+              .btn{
+                background-color: #455897;
+              }
+
+              p {
+                margin-bottom: 0;
+              }
+            }
+
+            .footer-center{
+              overflow: hidden;
+
+                img{
+                  float: left;
+                  padding: 3%;
+                }
+            }
+
+            .footer-bottom{
+              background-color: #1C2331;
+              color: #ccc;
+              font-weight: 100;
+              padding: 1%;
+            }
+
+        }
+
+
+
+
+  @media only screen and (max-width: 460px) {
             .view {
             background: url("../img/hero_mobile.jpg") no-repeat !important;
             -webkit-background-size: 100% !important;
@@ -386,6 +565,9 @@
             -o-background-size: 100% !important;
             background-size: 100% !important;
             }
+
+
+            // Mobilne Menu Początek
 
             .main-magme {
                 overflow: hidden;
@@ -429,6 +611,21 @@
                 top: 0;
                 width: 50% ; /* 6 columns*/
                     }
+
+                 // Mobilne Menu Koniec
+
+
+              // Pasek Wyszukiwarki pod mneu
+              .sidebar-offcanvas .search-sidebar h4 {
+
+                -webkit-transform: scale(0.8);
+                   -moz-transform: scale(0.8);
+                    -ms-transform: scale(0.8);
+                     -o-transform: scale(0.8);
+                        transform: scale(0.8);
+              }
+
+              // Koniec Paska wyszukiwarki
 
         }
 
