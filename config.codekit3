@@ -205,6 +205,102 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/bra_1.jpg": {
+		"ft": 16384,
+		"iS": 38471,
+		"oA": 0,
+		"oAP": "\/img\/bra_1.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/bra_10.jpg": {
+		"ft": 16384,
+		"iS": 385636,
+		"oA": 0,
+		"oAP": "\/img\/bra_10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_11.jpg": {
+		"ft": 16384,
+		"iS": 74604,
+		"oA": 0,
+		"oAP": "\/img\/bra_11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_12.jpg": {
+		"ft": 16384,
+		"iS": 74638,
+		"oA": 0,
+		"oAP": "\/img\/bra_12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_2.jpg": {
+		"ft": 16384,
+		"iS": 39050,
+		"oA": 0,
+		"oAP": "\/img\/bra_2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/bra_3.jpg": {
+		"ft": 16384,
+		"iS": 168352,
+		"oA": 0,
+		"oAP": "\/img\/bra_3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_4.jpg": {
+		"ft": 16384,
+		"iS": 403985,
+		"oA": 0,
+		"oAP": "\/img\/bra_4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_5.jpg": {
+		"ft": 16384,
+		"iS": 128375,
+		"oA": 0,
+		"oAP": "\/img\/bra_5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_6.jpg": {
+		"ft": 16384,
+		"iS": 401163,
+		"oA": 0,
+		"oAP": "\/img\/bra_6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_7.jpg": {
+		"ft": 16384,
+		"iS": 390901,
+		"oA": 0,
+		"oAP": "\/img\/bra_7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_8.jpg": {
+		"ft": 16384,
+		"iS": 442562,
+		"oA": 0,
+		"oAP": "\/img\/bra_8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bra_9.jpg": {
+		"ft": 16384,
+		"iS": 382001,
+		"oA": 0,
+		"oAP": "\/img\/bra_9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/cart_mini1.jpg": {
 		"ft": 16384,
 		"iS": 10552,
@@ -245,6 +341,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/header_oferta.jpg": {
+		"ft": 16384,
+		"iS": 174159,
+		"oA": 0,
+		"oAP": "\/img\/header_oferta.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/header_oferta_two.jpg": {
+		"ft": 16384,
+		"iS": 41513,
+		"oA": 0,
+		"oAP": "\/img\/header_oferta_two.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 214866,
@@ -282,6 +394,14 @@
 		"iS": 281,
 		"oA": 0,
 		"oAP": "\/img\/icons\/down-chevron.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/img (45).jpg": {
+		"ft": 16384,
+		"iS": 270538,
+		"oA": 0,
+		"oAP": "\/img\/img (45).jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -729,6 +849,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/License.pdf",
+		"oF": 0
+		},
+	"\/oferta.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/oferta.html",
 		"oF": 0
 		},
 	"\/README.txt": {

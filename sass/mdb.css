@@ -6870,6 +6870,40 @@ footer {
     font-weight: 100;
     padding: 1%; }
 
+.carousel {
+  height: 60%; }
+
+.carousel-item,
+.active {
+  height: 100%; }
+
+.carousel-inner {
+  height: 100%; }
+  .carousel-inner .h1-responsive, .carousel-inner .section .section-heading, .section .carousel-inner .section-heading {
+    font-weight: 100; }
+  .carousel-inner p {
+    color: pink; }
+
+.carousel-item:nth-child(1) {
+  background-image: url("../img/header_oferta_two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1; }
+
+.carousel-item:nth-child(2) {
+  background-image: url("../img/header_oferta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.carousel-item:nth-child(3) {
+  background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(67).jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*Caption*/
+.flex-center {
+  color: #fff; }
+
 @media only screen and (max-width: 460px) {
   .view {
     background: url("../img/hero_mobile.jpg") no-repeat !important;

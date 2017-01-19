@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"tran",
+				"transform\tCSS - transform: ;"
+			],
+			[
+				"oncl",
+				"onclick: EventHandler\tWindow"
+			],
+			[
 				"font",
 				"font-weight"
 			],
@@ -272,10 +280,6 @@
 				"padding-bottom"
 			],
 			[
-				"tran",
-				"transparent"
-			],
-			[
 				"ea",
 				"ease-in"
 			],
@@ -510,10 +514,6 @@
 			[
 				"dow",
 				"do while()"
-			],
-			[
-				"cons",
-				"console.log()"
 			]
 		]
 	},
@@ -523,16 +523,17 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 46257,
+				"buffer_size": 48279,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/mdb.css",
+			"file": "oferta.html",
 			"settings":
 			{
-				"buffer_size": 186639,
+				"buffer_size": 53275,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -540,7 +541,7 @@
 			"file": "sass/magme.scss",
 			"settings":
 			{
-				"buffer_size": 17475,
+				"buffer_size": 18638,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -549,7 +550,7 @@
 			"file": "js/magme.js",
 			"settings":
 			{
-				"buffer_size": 1002,
+				"buffer_size": 678,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -898,17 +899,17 @@
 	[
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/css",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/img",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/font",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/img/icons",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/js",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb"
 	],
 	"file_history":
 	[
+		"/Users/MarcinMagiera/Downloads/half-page-carousel/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb.css",
 		"/Users/MarcinMagiera/Downloads/Linearicons-Free-v1.0.0/Web Font/demo.html",
 		"/Users/MarcinMagiera/Downloads/my-icons-collection/My icons collection-SVG-Sprites-Demo.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb.css",
 		"/Users/MarcinMagiera/Downloads/ecommerce-home-page/index.html",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/js/magme.js",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/magme.scss",
@@ -1032,12 +1033,11 @@
 		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/15F48731-7F50-48EC-AE56-601D0D68944A/style.css",
 		"/Users/MarcinMagiera/Library/Caches/com.binarynights.ForkLift2/#0/style.css",
 		"/Users/MarcinMagiera/Desktop/Max6/Strona/Łopaty/Fonty",
-		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/46CA7506-1F07-48EB-B8EF-B09BDE9BC328/style.css",
-		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/5767B564-3F3A-4B1D-809E-442172509DF1/style.css"
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/46CA7506-1F07-48EB-B8EF-B09BDE9BC328/style.css"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 78.0
 	},
 	"find_in_files":
 	{
@@ -1052,6 +1052,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
 			"btn-pink",
 			"headingFour",
 			"Item",
@@ -1157,7 +1158,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1166,15 +1167,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 46257,
+						"buffer_size": 48279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42049,
-								42049
+								20358,
+								20358
 							]
 						],
 						"settings":
@@ -1184,27 +1185,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										42051,
-										42052
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										42033,
-										42034
-									]
 								},
 								"unmatched":
 								{
@@ -1278,27 +1264,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13091.0,
+						"translation.y": 6456.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/mdb.css",
+					"file": "oferta.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 186639,
+						"buffer_size": 53275,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5556,
-								5549
+								25572,
+								25572
 							]
 						],
 						"settings":
@@ -1308,27 +1294,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										5569,
-										5570
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										5527,
-										5528
-									]
 								},
 								"unmatched":
 								{
@@ -1394,17 +1365,18 @@
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"incomplete_sync": null,
+							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2628.0,
+						"translation.y": 748.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1413,15 +1385,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17475,
+						"buffer_size": 18638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14861,
-								14861
+								15200,
+								15200
 							]
 						],
 						"settings":
@@ -1431,27 +1403,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										14934,
-										14935
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										14793,
-										14794
-									]
 								},
 								"unmatched":
 								{
@@ -1524,10 +1481,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8534.0,
+						"translation.y": 9087.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1536,15 +1493,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1002,
+						"buffer_size": 678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								440,
-								211
+								452,
+								452
 							]
 						],
 						"settings":
@@ -1556,8 +1513,8 @@
 								{
 									"1":
 									[
-										991,
-										992
+										667,
+										668
 									]
 								},
 								"icon":
