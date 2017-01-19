@@ -6913,10 +6913,15 @@ footer {
   background-size: cover;
   opacity: 0.1; }
 
-.carousel-item.contact:nth-child(2) {
-  background-image: url("../img/header_oferta.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+.kontakt-title {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.kontakt-site-form span {
+  color: #D4117F; }
+
+.contact-site-title {
+  font-family: 'Allura', cursive; }
 
 @media only screen and (max-width: 460px) {
   .view {
