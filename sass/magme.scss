@@ -10,6 +10,21 @@
 
         }
 
+
+      // Formularz kontaktowy Active
+
+         .md-form label.active {
+              font-size: 0.8rem;
+              -webkit-transform: translateY(-40%);
+              -moz-transform: translateY(-40%);
+              -ms-transform: translateY(-40%);
+              -o-transform: translateY(-40%);
+              transform: translateY(-40%);
+            }
+
+        // Formularz kontaktowy End
+
+
         .view ul .arrow h1 a span{
           color: pink;
 
@@ -608,11 +623,6 @@
             background-size: cover;
         }
 
-        .carousel-item:nth-child(3) {
-            background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(67).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
         /*Caption*/
 
         .flex-center {
@@ -620,7 +630,20 @@
         }
 
 
+          // Koniec Pełna Oferta
 
+      .carousel-item.contact:nth-child(1) {
+            background-image: url('../img/header_kontakt.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.1;
+        }
+
+        .carousel-item.contact:nth-child(2) {
+            background-image: url("../img/header_oferta.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
   @media only screen and (max-width: 460px) {
             .view {
