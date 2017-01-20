@@ -6923,14 +6923,27 @@ footer {
 .contact-site-title {
   font-family: 'Allura', cursive; }
 
-.carousel-item.regulamin:nth-child(1) {
+.carousel-item.regulamin-slider:nth-child(1) {
   background-image: url("../img/header_regulamin.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1; }
 
-.regulamin a {
-  color: rgba(233, 30, 99, 0.7); }
+.regulamin {
+  padding-bottom: 4%; }
+  .regulamin a {
+    color: rgba(233, 30, 99, 0.7); }
+
+.carousel-item.order-slider:nth-child(1) {
+  background-image: url("../img/header_order.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1; }
+
+.order-main {
+  padding-top: 4%; }
+  .order-main a, .order-main span {
+    color: rgba(233, 30, 99, 0.7); }
 
 @media only screen and (max-width: 460px) {
   .view {

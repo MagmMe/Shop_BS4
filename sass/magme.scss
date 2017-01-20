@@ -639,7 +639,7 @@
 
   // Regulamin Site
 
-      .carousel-item.regulamin:nth-child(1) {
+      .carousel-item.regulamin-slider:nth-child(1) {
             background-image: url('../img/header_regulamin.jpg');
             background-repeat: no-repeat;
             background-size: cover;
@@ -648,9 +648,28 @@
 
       .regulamin {
 
+          padding-bottom: 4%;
+
         a{
           color: rgba(233, 30, 99, 0.7);
         }
+      }
+
+   // Jak zamawiać
+
+    .carousel-item.order-slider:nth-child(1) {
+            background-image: url('../img/header_order.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.1;
+        }
+
+      .order-main{
+        padding-top: 4%;
+
+          a, span{
+            color: rgba(233, 30, 99, 0.7);
+          }
       }
 
 

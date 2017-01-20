@@ -421,6 +421,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/header_order.jpg": {
+		"ft": 16384,
+		"iS": 78569,
+		"oA": 0,
+		"oAP": "\/img\/header_order.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/header_regulamin.jpg": {
 		"ft": 16384,
 		"iS": 77083,
@@ -1237,6 +1245,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/README.txt",
+		"oF": 0
+		},
+	"\/zamowienie.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/zamowienie.html",
 		"oF": 0
 		}
 	},
