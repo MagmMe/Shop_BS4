@@ -421,6 +421,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/header_regulamin.jpg": {
+		"ft": 16384,
+		"iS": 77083,
+		"oA": 0,
+		"oAP": "\/img\/header_regulamin.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/header_regulamin2.jpg": {
+		"ft": 16384,
+		"iS": 160153,
+		"oA": 0,
+		"oAP": "\/img\/header_regulamin2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 214866,
@@ -939,6 +955,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/README.txt",
+		"oF": 0
+		},
+	"\/regulamin.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/regulamin.html",
 		"oF": 0
 		},
 	"\/sass\/magme.scss": {
