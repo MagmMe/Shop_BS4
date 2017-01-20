@@ -971,6 +971,12 @@
 		"oAP": "\/regulamin.html",
 		"oF": 0
 		},
+	"\/rozmiary.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/rozmiary.html",
+		"oF": 0
+		},
 	"\/sass\/magme.scss": {
 		"aP": 0,
 		"bl": 0,
