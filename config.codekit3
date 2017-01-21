@@ -197,6 +197,12 @@
 		"oAP": "\/font\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
+	"\/forget.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/forget.html",
+		"oF": 0
+		},
 	"\/img\/baner1.jpg": {
 		"ft": 16384,
 		"iS": 370617,
@@ -445,6 +451,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/header_size.jpg": {
+		"ft": 16384,
+		"iS": 86781,
+		"oA": 0,
+		"oAP": "\/img\/header_size.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 214866,
@@ -469,11 +483,35 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/hero_forget.jpg": {
+		"ft": 16384,
+		"iS": 319738,
+		"oA": 0,
+		"oAP": "\/img\/hero_forget.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/hero_mobile.jpg": {
 		"ft": 16384,
 		"iS": 152813,
 		"oA": 0,
 		"oAP": "\/img\/hero_mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/hero_order.jpg": {
+		"ft": 16384,
+		"iS": 83153,
+		"oA": 0,
+		"oAP": "\/img\/hero_order.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/hero_register.jpg": {
+		"ft": 16384,
+		"iS": 185944,
+		"oA": 0,
+		"oAP": "\/img\/hero_register.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -833,6 +871,12 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/index.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.sublime-workspace",
+		"oF": 0
+		},
 	"\/js\/bootstrap.js": {
 		"ft": 64,
 		"mi": 1,
@@ -963,6 +1007,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/README.txt",
+		"oF": 0
+		},
+	"\/register.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/register.html",
 		"oF": 0
 		},
 	"\/regulamin.html": {

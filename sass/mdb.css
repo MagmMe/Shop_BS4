@@ -6598,6 +6598,9 @@ a {
     .modal-content .form-register p a:hover {
       color: pink; }
 
+.modal-content .modal-footer p {
+  line-height: 0px; }
+
 .cart-menu {
   margin-top: -20px; }
   .cart-menu .nav-item {
@@ -6907,6 +6910,9 @@ footer {
 .flex-center {
   color: #fff; }
 
+.pagination li a {
+  color: pink; }
+
 .carousel-item.contact:nth-child(1) {
   background-image: url("../img/header_kontakt.jpg");
   background-repeat: no-repeat;
@@ -6944,6 +6950,52 @@ footer {
   padding-top: 4%; }
   .order-main a, .order-main span {
     color: rgba(233, 30, 99, 0.7); }
+
+.carousel-item.size-slider:nth-child(1) {
+  background-image: url("../img/header_size.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1; }
+
+#register-view {
+  background: url("../img/hero_register.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #register-view #home-register {
+    padding-top: 10%; }
+  #register-view .card {
+    background-color: rgba(255, 255, 255, 0.7); }
+  #register-view .description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff;
+    font-weight: 100; }
+  #register-view .md-form input {
+    border-bottom-color: black; }
+  #register-view span, #register-view h3, #register-view a {
+    color: rgba(233, 30, 99, 0.7);
+    font-weight: 300; }
+  #register-view label {
+    color: black; }
+  #register-view .para-register {
+    font-size: 0.8rem;
+    color: black; }
+
+#forget-view {
+  background: url("../img/hero_forget.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #forget-view span, #forget-view h3, #forget-view a {
+    color: rgba(233, 30, 99, 0.7);
+    font-weight: 300; }
+  #forget-view .md-form input {
+    border-bottom-color: black; }
+  #forget-view .card {
+    background-color: rgba(255, 255, 255, 0.7); }
 
 @media only screen and (max-width: 460px) {
   .view {

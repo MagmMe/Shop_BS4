@@ -22,7 +22,7 @@
 		    e.preventDefault();
 		    var target= $('#end');
 		    $('html, body').stop().animate({
-		       scrollTop: target.offset().top
+		       scrollTop: target.offset().top + 450
 		    }, 1000);
 		});
 		$('#regOne').on('click', function(e){

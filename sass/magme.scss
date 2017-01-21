@@ -114,6 +114,10 @@
                     }
                 }
             }
+
+            .modal-footer p{
+                line-height: 0px;
+            }
          }
 
         // Koszyk i User Menu
@@ -614,6 +618,10 @@
             color: #fff;
         }
 
+        .pagination li a {
+          color: pink;
+        }
+
 
 // Kontakt Site
 
@@ -673,7 +681,84 @@
       }
 
 
+      // Rozmiary
 
+
+      .carousel-item.size-slider:nth-child(1) {
+            background-image: url('../img/header_size.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.1;
+        }
+
+
+      // Register
+
+      #register-view {
+
+        background: url("../img/hero_register.jpg")no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+
+          #home-register{
+            padding-top: 10%;
+          }
+
+          .card{
+            background-color: rgba(255,255,255, .7);
+          }
+          .description {
+            padding-top: 25%;
+            padding-bottom: 3rem;
+            color: #fff;
+            font-weight: 100;
+        }
+
+        .md-form input {
+          border-bottom-color: black;
+        }
+
+        span, h3, a {
+          color: rgba(233, 30, 99, 0.7);
+          font-weight: 300;
+        }
+
+        label{
+          color: black;
+        }
+
+        .para-register{
+          font-size: 0.8rem;
+          color: black;
+        }
+      }
+
+  // Forget
+
+    #forget-view {
+
+        background: url("../img/hero_forget.jpg")no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+
+          span, h3, a {
+          color: rgba(233, 30, 99, 0.7);
+          font-weight: 300;
+          }
+
+          .md-form input {
+          border-bottom-color: black;
+          }
+
+          .card{
+            background-color: rgba(255,255,255, .7);
+          }
+
+        }
 
   @media only screen and (max-width: 460px) {
             .view {
