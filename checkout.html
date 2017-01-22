@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -106,49 +107,175 @@
     </nav>
     <!--/.Navbar-->
 
-    <!--Forget-->
-    <div class="view hm-black-light" id="forget-view">
-        <div class="full-bg-img flex-center">
-            <div class="container">
-                <div class="row" id="home">
 
-                    <!--First column-->
-                    <div class="col-lg-6">
-                        <div class="description">
-                            <h2 class="h2-responsive wow fadeInLeft">Nie pamiętasz hasła lub loginu? </h2>
-                            <hr class="hr-light wow fadeInLeft">
-                            <p class="wow fadeInLeft" data-wow-delay="0.4s">Podaj maila, którego użyłaś do rejestracji w naszym sklepie. Prześlemy link wraz z Twoją nazwą użytkownika, dzięki któremu będzie można zresetować swoje hasło.</p>
-                        </div>
+
+    <div class="container-fluid">
+      <div class="row header-checkout">
+          <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="card wow fadeInDown">
+                    <div class="card-block">
+                      <div class="text-xs-center">
+                        <h2><span class="lnr lnr-user"></span>Twój Panel Klienta</h2>
+                      </div>
                     </div>
-                    <!--/.First column-->
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
 
-                    <!--Second column-->
-                    <div class="col-lg-6">
-                        <!--Form-->
+                  <div class="card wow fadeInLeft cart-main">
+                    <div class="card-block">
+                      <h2> <span class="lnr lnr-cart"></span> Twój koszyk</h2>
+                      <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Id.</th>
+                          <th>Produkt</th>
+                          <th>Ilość</th>
+                          <th>Cena</th>
+                          <th>Usuń</th>
+                        </tr>
+                      </thead>
+                      <tbody >
+                        <div class="item-container">
+                        <tr class="product-row">
+                          <th scope="row"><img src="img/cart_mini1.jpg" alt="" class="img-fluid" width="30px"></th>
+                          <td>Biustonosz</td>
+                          <td>1</td>
+                          <td class="price-in-cart">60</td>
+                          <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
+                        </tr>
+                        <tr class="product-row">
+                          <th scope="row"><img src="img/cart_mini2.jpg" alt="" class="img-fluid" width="30px"></th>
+                          <td>Biustonosz</td>
+                          <td>1</td>
+                          <td class="price-in-cart">70</td>
+                          <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
+                        </tr>
+                        <tr class="product-row">
+                          <th scope="row"><img src="img/cart_mini1.jpg" alt="" class="img-fluid" width="30px"></th>
+                          <td>Biustonosz</td>
+                          <td>1</td>
+                          <td class="price-in-cart">40</td>
+                          <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
+                        </tr>
+                        <tr class="product-row">
+                          <th scope="row"><img src="img/cart_mini2.jpg" alt="" class="img-fluid" width="30px"></th>
+                          <td>Biustonosz</td>
+                          <td>1</td>
+                          <td class="price-in-cart">40</td>
+                          <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
+                        </tr>
+                        </div>
+                      </tbody>
+                    </table>
+
+                    </div>
+                  </div>
+                  <div class="card wow fadeInLeft">
+                    <div class="card-block">
+                      <h4>Suma: <strong>165 zł</strong></h4>
+                      <h5>Twój rabat wynosi: 3%</h5>
+                      <h3>Razem do zapłaty: 150 zł</h3>
+                      <button class="btn btn-pink btn-lg">Płacę</button>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="col-md-6">
+                      <!--Dane użytkownika-->
                         <div class="card wow fadeInRight">
                             <div class="card-block">
+                                <!--Header-->
+                                <div class="text-xs-center">
+                                    <h3><span class="lnr lnr-pencil prefix"></span> Twoje dane/adres wysyłki</h3>
+                                    <hr>
+                                </div>
+
+                                <!--Body-->
+                                <div class="md-form">
+                                    <span class="lnr lnr-user prefix"></span>
+                                    <input type="text" id="form37" class="form-control">
+                                    <label for="form37">Login</label>
+                                </div>
+                                <div class="md-form">
+                                    <span class="lnr lnr-location prefix"></span>
+                                    <input type="text" id="form37" class="form-control">
+                                    <label for="form37">Imię</label>
+                                </div>
+                                <div class="md-form">
+                                    <span class="lnr lnr-location prefix"></span>
+                                    <input type="text" id="form38" class="form-control">
+                                    <label for="form38">Nazwisko</label>
+                                </div>
+                                <div class="md-form">
+                                    <span class="lnr lnr-home prefix"></span>
+                                    <input type="text" id="form38" class="form-control">
+                                    <label for="form38">Ulica i numer domu/mieszkania</label>
+                                </div>
+                                <div class="md-form">
+                                    <span class="lnr lnr-map-marker prefix"></span>
+                                    <input type="text" id="form39" class="form-control">
+                                    <label for="form39">Miasto</label>
+                                </div>
+                                <div class="md-form">
+                                    <span class="lnr lnr-envelope prefix"></span>
+                                    <input type="text" id="form131" class="form-control">
+                                    <label for="form131">Twój e-mail</label>
+                                </div>
+                                <div class="md-form">
+                                    <span class="lnr lnr-phone prefix"></span>
+                                    <input type="text" id="form132" class="form-control">
+                                    <label for="form132">Telefon</label>
+                                </div>
+
+                                <div class="md-form">
+                                    <span class="lnr lnr-lock prefix"></span>
+                                    <input type="password" id="form143" class="form-control">
+                                    <label for="form143">Hasło</label>
+                                </div>
+
+                                <div class="text-xs-center">
+                                    <button class="btn btn-default btn-lg">Edytuj dane</button>
+                                    <button class="btn btn-success btn-lg">Zapisz</button>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--/.Dane użytkownika-->
+                        <!-- Kontakr do administratora -->
+                        <div class="card wow fadeInRight">
+                            <div class="card-block">
+                            <h3>Kontakt z administratorem</h3>
 
                                 <!--Body-->
                                 <div class="md-form">
                                     <span class="lnr lnr-envelope prefix"></span>
                                     <input type="text" id="form21" class="form-control">
-                                    <label for="form21">Podaj swojego maila</label>
+                                    <label for="form21">Opisz z czym masz problem</label>
                                 </div>
                                 <div class="text-xs-center">
-                                    <button class="btn btn-primary btn-lg">Zresetuj moje hasło</button>
+                                    <button class="btn btn-primary btn-lg">Wyślij</button>
 
                                 </div>
 
                             </div>
                         </div>
                         <!--/.Form-->
-                    </div>
-                    <!--/Second column-->
                 </div>
-            </div>
-        </div>
+              </div>
+          </div>
+      </div>
     </div>
-    <!--/.Forget-->
+
+
+
 
               <footer>
                 <div class="container-fluid">
@@ -200,6 +327,8 @@
 
                 </div>
               </footer>
+
+<!-- Panel Logowania Klienta -->
 
 <!-- Modal -->
 <div class="modal fade bd-example-modal-sm" id="loginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -254,8 +383,6 @@
 
 
 <!-- New login modal -->
-
-
 
 
     <!-- SCRIPTS -->

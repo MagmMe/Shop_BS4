@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/checkout.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/checkout.html",
+		"oF": 0
+		},
 	"\/css\/bootstrap.css": {
 		"aP": 0,
 		"bl": 0,

@@ -16,6 +16,14 @@
  //        $(this).css("transform", "rotate(90deg)");
  //        });
 
+ 		// Usunięcie produktu z koszyka
+
+ 		$('.product-row').on('click','.remove-item',function(){
+
+    		$(this).parents('tr').eq(-1).remove();// usuwa produkt z koszyka na stronie checkout.html
+
+		});
+
 
 	 	// Magme Hero Smooth Scroll and Regulamin Site smooth scroll
 		$('#start').on('click', function(e){
