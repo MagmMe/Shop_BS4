@@ -528,7 +528,9 @@
 
         footer {
             background-color: #fff;
-            box-shadow: -1px -2px 3px #ccc;
+            box-shadow:-1px -2px 5px 0 rgba(0, 0, 0, 0.16),
+                      -1px -2px 10px 0 rgba(0, 0, 0, 0.12);
+            // box-shadow: -1px -2px 3px #ccc;
 
           .footer-top{
             background-color: #871857;  //#54627D
@@ -773,7 +775,72 @@
     background: -webkit-linear-gradient(to left, #B24592 , #F15F79); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #B24592 , #F15F79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 10%;
+
+      .checkout-container{
+        padding-top: 3%;
+        padding-bottom: 5%;
+      }
   }
+
+
+  // Single product
+
+    .product-main-container{
+
+      padding-top: 5%;
+
+          h2{
+            color: rgba(233, 30, 99, 0.7);
+          }
+
+          #image-gallery{
+              list-style: none outside none;
+                padding-left: 0;
+                    margin: 0;
+          }
+
+          .lSSlideOuter .lSPager.lSGallery{
+            margin: 0 auto;
+          }
+
+          .breadcrumb{
+          background-color: white;
+
+            a {
+              color: rgba(233, 30, 99, 0.7);
+            }
+          }
+
+          .btn-fb{
+                background-color: #455897;
+              }
+
+            select {
+                      border: 1px solid #111;
+                       background: transparent;
+                        width: 50%;
+                       padding: 5px 25px 5px 5px;
+                       font-size: 12px;
+                       border: 1px solid #ccc;
+                       height: 34px;
+                       -webkit-appearance: none;
+                       -moz-appearance: none;
+                       appearance: none;
+                        background: url(../img/icons/down-chevron.png) 96% / 5% no-repeat #e6e6e6;
+                       }
+    }
+
+    .product-divider{
+      padding-top: 5%;
+      padding-bottom: 5%;
+
+    }
+
+
+
+
+
+
 
   @media only screen and (max-width: 460px) {
             .view {
@@ -785,7 +852,13 @@
             }
 
 
-            // Mobilne Menu Początek
+
+        }
+
+ @media only screen and (max-width: 768px) {
+
+
+           // Mobilne Menu Początek
 
             .main-magme {
                 overflow: hidden;
@@ -844,10 +917,6 @@
               }
 
               // Koniec Paska wyszukiwarki
-
-        }
-
-        @media only screen and (max-width: 768px) {
 
 
             .navbar {

@@ -35,6 +35,26 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/lightslider-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/lightslider-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/lightslider.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/lightslider-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/mdb.css": {
 		"aP": 0,
 		"bl": 0,
@@ -217,6 +237,22 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/baner2.jpg": {
+		"ft": 16384,
+		"iS": 98997,
+		"oA": 0,
+		"oAP": "\/img\/baner2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/baner3.jpg": {
+		"ft": 16384,
+		"iS": 92001,
+		"oA": 0,
+		"oAP": "\/img\/baner3.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/bra_1.jpg": {
 		"ft": 16384,
 		"iS": 38471,
@@ -326,6 +362,14 @@
 		"iS": 8803,
 		"oA": 0,
 		"oAP": "\/img\/cart_mini2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/controls.png": {
+		"ft": 32768,
+		"iS": 2241,
+		"oA": 0,
+		"oAP": "\/img\/controls.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -823,6 +867,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/product_detail_1.jpg": {
+		"ft": 16384,
+		"iS": 130847,
+		"oA": 0,
+		"oAP": "\/img\/product_detail_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_detail_2.jpg": {
+		"ft": 16384,
+		"iS": 112090,
+		"oA": 0,
+		"oAP": "\/img\/product_detail_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/product_detail_3.jpg": {
+		"ft": 16384,
+		"iS": 145521,
+		"oA": 0,
+		"oAP": "\/img\/product_detail_3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/przelewy24_01.png": {
 		"ft": 32768,
 		"iS": 15096,
@@ -854,6 +922,30 @@
 		"oAP": "\/img\/ssl.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/thumbs\/mini1.jpg": {
+		"ft": 16384,
+		"iS": 130847,
+		"oA": 0,
+		"oAP": "\/img\/thumbs\/mini1.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/thumbs\/mini2.jpg": {
+		"ft": 16384,
+		"iS": 112090,
+		"oA": 0,
+		"oAP": "\/img\/thumbs\/mini2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/thumbs\/mini3.jpg": {
+		"ft": 16384,
+		"iS": 145521,
+		"oA": 0,
+		"oAP": "\/img\/thumbs\/mini3.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/img\/visa-logo-new.png": {
 		"ft": 32768,
@@ -937,6 +1029,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/lightslider-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lightslider-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lightslider.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lightslider-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/magme-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1007,6 +1117,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/oferta.html",
+		"oF": 0
+		},
+	"\/product.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product.html",
+		"oF": 0
+		},
+	"\/product.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product.sublime-workspace",
 		"oF": 0
 		},
 	"\/README.txt": {

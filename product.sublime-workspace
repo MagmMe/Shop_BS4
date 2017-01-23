@@ -1,0 +1,1255 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"getElemen",
+				"getElementsByClassName('aSome')"
+			],
+			[
+				"append",
+				"appendChild( node: Node ): Node\tNode"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"tran",
+				"transform\tCSS - transform: ;"
+			],
+			[
+				"oncl",
+				"onclick: EventHandler\tWindow"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tra",
+				"transition\tCSS - transition: ;"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"insert",
+				"insertBefore( node: Node, child: Node ): Node\tNode"
+			],
+			[
+				"inser",
+				"insertBefore( node: Node, child: Node ): Node\tNode"
+			],
+			[
+				"ceratee",
+				"createElement( localName: DOMString ): Element\tDocument"
+			],
+			[
+				"createE",
+				"createElement( localName: DOMString ): Element\tDocument"
+			],
+			[
+				"tock",
+				"tock()\tscripts.js"
+			],
+			[
+				"func",
+				"function with name"
+			],
+			[
+				"functi",
+				"function without name"
+			],
+			[
+				"settim",
+				"setTimeout( callback: Function, milliseconds?: number ): number\tNativeScript - Module NativeScript"
+			],
+			[
+				"fun",
+				"function without name"
+			],
+			[
+				"setTime",
+				"setTimeout( callback: Function, milliseconds?: number ): number\tNativeScript - Module NativeScript"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"setti",
+				"setTimeout( callback: Function, milliseconds?: number ): number\tNativeScript - Module NativeScript"
+			],
+			[
+				"htm",
+				"html(): String\tjQuery - Attributes | Manipulation > DOM Insertion, Inside"
+			],
+			[
+				"quer",
+				"querySelector( selectors: DOMString ): Element\tElement"
+			],
+			[
+				"conso",
+				"console.log()"
+			],
+			[
+				"try",
+				"try catch"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"search",
+				"searchDb()\tscripts.js"
+			],
+			[
+				"sea",
+				"searchDb()\tscripts.js"
+			],
+			[
+				"searchDb",
+				"serachDb()\tscripts.js"
+			],
+			[
+				"funt",
+				"function with name"
+			],
+			[
+				"Math",
+				"Math.floor( x: number ): number\tMath"
+			],
+			[
+				"ale",
+				"alert(aSome)"
+			],
+			[
+				"imie",
+				"imie\tscripts.js"
+			],
+			[
+				"if",
+				"if()"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"pading",
+				"padding-bottom"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"w",
+				"width\tAttr"
+			],
+			[
+				"home",
+				"home-bg"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"bs3-ht",
+				"bs3-template:html5\tbs3-html5-template"
+			],
+			[
+				"bs3-h",
+				"bs3-template:html5\tbs3-html5-template"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"trans",
+				"transform\tCSS - transform: ;"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"ea",
+				"ease-in"
+			],
+			[
+				"anima",
+				"animation-timing-function"
+			],
+			[
+				"animation-d",
+				"animation-duration"
+			],
+			[
+				"ani",
+				"animation"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"anim",
+				"anim-\tanimation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"transition",
+				"transition-delay"
+			],
+			[
+				"transiti",
+				"transition-timing-function"
+			],
+			[
+				"transit",
+				"transition\tCSS - transition: ;"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"ech",
+				"echo\techo \"…\""
+			],
+			[
+				"getele",
+				"getElementsByTagName(name)\tElement"
+			],
+			[
+				"do",
+				"document\tDocument"
+			],
+			[
+				"crea",
+				"createTextNode(data)\tDocument"
+			],
+			[
+				"inse",
+				"insertBefore(newElement, referenceElement)\tNode"
+			],
+			[
+				"app",
+				"appendChild(aChild)\tNode"
+			],
+			[
+				"cre",
+				"createTextNode(data)\tDocument"
+			],
+			[
+				"q",
+				"querySelector(selectors)\tElement"
+			],
+			[
+				"Ima",
+				"new Image()"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"Im",
+				"new Image()"
+			],
+			[
+				"textN",
+				"createTextNode(data)\tDocument"
+			],
+			[
+				"getelement",
+				"getElementsByClassName(names)\tElement"
+			],
+			[
+				"geteleme",
+				"getElementsByTagName(name)\tElement"
+			],
+			[
+				"cono",
+				"console.log()"
+			],
+			[
+				"qu",
+				"querySelectorAll(selectors)\tElement"
+			],
+			[
+				"getelem",
+				"getElementsByClassName(names)\tElement"
+			],
+			[
+				"clear",
+				"clearInterval(intervalID)\tWindow"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"setTi",
+				"setTimeout(func, delay)\tWindow"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"t",
+				"throw"
+			],
+			[
+				"new",
+				"new Error(message)\tError"
+			],
+			[
+				"get",
+				"getDate()\tDate"
+			],
+			[
+				"Mat",
+				"Math.random()\tMath"
+			],
+			[
+				"Ma",
+				"Math.PI\tMath"
+			],
+			[
+				"l",
+				"length\tString"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"delete",
+				"delete(Object)\tObject"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"spl",
+				"splice(index, howMany)\tArray"
+			],
+			[
+				"sp",
+				"splice(index, howMany)\tArray"
+			],
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"un",
+				"unshift(element1)\tArray"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"posi",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "package control",
+		"selected_items":
+		[
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"synt ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"synt h",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt",
+				"Set Syntax: CSS3"
+			],
+			[
+				"ma",
+				"Material Theme: Configuration"
+			],
+			[
+				"bs3 h",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"synt html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"sy css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn  cs",
+				"Set Syntax: CSS3"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"fe",
+				"Fetch: Package"
+			],
+			[
+				"SYN JA",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn hm",
+				"Set Syntax: HTML"
+			],
+			[
+				"fect",
+				"Fetch: Manage"
+			],
+			[
+				"synt htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"styn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"sty",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"syn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"syn ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn less",
+				"Set Syntax: LESS"
+			],
+			[
+				"syn",
+				"Set Syntax: Less"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"synt css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"File",
+				"File: Copy as Tag style"
+			],
+			[
+				"file",
+				"File: Copy as Tag script"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"synt hm",
+				"Set Syntax: HTML"
+			],
+			[
+				"net",
+				"File: New File Relative to Current View"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"synt java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snip media",
+				"Snippet: bs3-media-object"
+			],
+			[
+				"sni bs3",
+				"Snippet: bs3-breadcrumbs"
+			],
+			[
+				"sni",
+				"Snippet: bs3-navbar-inverse"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				" htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy",
+				"Set Syntax: YAML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"styn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"SYN HTM",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn jac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn c",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssyn css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"fetch ",
+				"Fetch: Manage"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack i",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: bs3-h",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Snippet: div",
+				"Snippet: <div>"
+			],
+			[
+				"pacga",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/css/lightslider.css",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/js/lightslider.js",
+		"/Users/MarcinMagiera/Downloads/lightslider-master/demo/index.html",
+		"/Users/MarcinMagiera/Downloads/lightslider-master/test/lightslider.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/checkout.html",
+		"/Users/MarcinMagiera/Downloads/lightslider-master/dist/css/lightslider.css",
+		"/Users/MarcinMagiera/Downloads/tkahn-Smooth-Div-Scroll-1c3b3a6/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/oferta.html",
+		"/Users/MarcinMagiera/Downloads/ecommerce-product-page/index.html",
+		"/Users/MarcinMagiera/Downloads/quick-add-to-cart/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/kontakt.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/zamowienie.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/forget.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/rozmiary.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/regulamin.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/register.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/js/magme.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/magme.scss",
+		"/Users/MarcinMagiera/Downloads/half-page-carousel/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb.css",
+		"/Users/MarcinMagiera/Downloads/Linearicons-Free-v1.0.0/Web Font/demo.html",
+		"/Users/MarcinMagiera/Downloads/my-icons-collection/My icons collection-SVG-Sprites-Demo.html",
+		"/Users/MarcinMagiera/Downloads/ecommerce-home-page/index.html",
+		"/Users/MarcinMagiera/Downloads/bootstrap-4.0.0-alpha.5/docs/examples/offcanvas/index.html",
+		"/Users/MarcinMagiera/Downloads/bootstrap-4.0.0-alpha.5/docs/examples/offcanvas/offcanvas.css",
+		"/Users/MarcinMagiera/Downloads/bootstrap-4.0.0-alpha.5/docs/examples/offcanvas/offcanvas.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb/free/_typography.scss",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/DashDoc/Default (OSX).sublime-keymap",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/DashDoc/DashDoc.sublime-settings",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/e-commerce.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb/free/_animations.scss",
+		"/Users/MarcinMagiera/Downloads/basic-landing-page/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb.scss",
+		"/Users/MarcinMagiera/Desktop/WebDev/JS/config.codekit3",
+		"/Users/MarcinMagiera/Desktop/WebDev/JS/scripts.js",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/JavaScript Completions/javascript_completions/JavaScript-Completions.sublime-settings",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/JavaScript Completions/helper/helper.sublime-settings",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/User/JavaScript-Completions.sublime-settings",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/js/magmeScript.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/js/aos.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/less/magme.less",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/website_portfolio.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/index.html",
+		"/Users/MarcinMagiera/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/wdrozenia.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/css/jquery.cookiebar.css",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/o-firmie.html",
+		"/Users/MarcinMagiera/Documents/www/CSS3/2_Nowe_selektory_potomka/style.css",
+		"/Users/MarcinMagiera/Documents/www/CSS3/2_Nowe_selektory_potomka/index.html",
+		"/Users/MarcinMagiera/Downloads/aos-master/demo/simple.html",
+		"/Users/MarcinMagiera/Downloads/aos-master/demo/async.html",
+		"/Users/MarcinMagiera/Downloads/aos-master/demo/css/styles.css",
+		"/Users/MarcinMagiera/Downloads/themeforest-9855248-hungry-a-onepage-html-restaurant-template-file-and-license20161219-10565-16irw3c/hungry-html-template-v1.0.1/html-files/js/jquery-localScroll.js",
+		"/Users/MarcinMagiera/Downloads/themeforest-9855248-hungry-a-onepage-html-restaurant-template-file-and-license20161219-10565-16irw3c/hungry-html-template-v1.0.1/html-files/index.html",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/EAB84B64-7490-4051-91C3-CF31DD600CFC/jquery.cookiebar.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Niktav2/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Niktav2/js/magme.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Niktav2/css/jquery.cookiebar.css",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Niktav2/js/jquery.cookiebar.js",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/D79DE588-EDCC-49AF-9EB3-D776965696D3/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/ssl.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/systemy.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/team.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/vps.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/webmail.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/windows.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/administracja.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/animation.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/antywirus.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/backup.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/blogFour.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/blogOne.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/blogThree.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/blogTwo.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/career.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/case.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/emailHosting.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/exchange.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/faq.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/feedback.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/hosting.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/kontakt.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/linux.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/login.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/monitoring.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/serwery.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/sieci.html",
+		"/Users/MarcinMagiera/Downloads/startbootstrap-blog-post-gh-pages/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/less/magme-responsive.less",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Nikta_One/js/script.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Nikta_One/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Nikta_One/css/style.css",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Niktav2/kontakt.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/index.html",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/07020FBE-B84A-4813-B3DF-82EB0022293F/jquery.cookiebar.css",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/A0AE9CAA-0CB1-40DA-BA5A-BF50624F744B/magme.js",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/576205A7-3F6D-4D52-B306-804BFCE9A6EA/jquery.cookiebar.js",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/A9760E70-4C63-4C0F-82CC-18ECD3C39FB6/index.html",
+		"/Users/MarcinMagiera/Downloads/jquery/jquery.cookiebar.css",
+		"/Users/MarcinMagiera/Downloads/jquery/index.html",
+		"/Users/MarcinMagiera/Downloads/jquery/jquery.cookiebar.js",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/884EC289-39DF-4516-9AA8-F83FD116E151/index.html",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/1C019484-4CF8-41ED-8EAB-406E524262DC/wp-activate.php",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/less/variables.less",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_v2/less/bootstrap.less",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_Site/less/style.less",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_Site/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_Site/css/style.css",
+		"/Users/MarcinMagiera/Desktop/Projekty/Terragraph/Terragraph_Site/index2.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/Nikta/Niktav2/less/bootstrap.less",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/594EBCE4-65AF-4B61-94E4-63C1196EA2F0/header.php",
+		"/Users/MarcinMagiera/Library/Caches/Cleanup At Startup/Transmit/87F51256-C89E-4624-A614-F673D903EA10/style.css",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/o_nas.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/maszyny.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/materialy.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/materialySingle.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/product.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/skup.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/kontakt.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/katalogi.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/czesciSingle.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/czesci.html",
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".para-register",
+			"view",
+			"td",
+			"pink",
+			">\n",
+			"btn-pink",
+			"headingFour",
+			"Item",
+			"card",
+			"mask",
+			".mask",
+			".scroling-navbar",
+			"scroling-navbar",
+			"scroling",
+			"row",
+			"main",
+			"@media",
+			"view",
+			"dropdown-toggle",
+			"dropdown",
+			"dropdown-menu",
+			"span",
+			"roboto",
+			"font",
+			"nav",
+			"nav\t",
+			"fadeIn",
+			"h1",
+			"p",
+			"default",
+			"h3",
+			".jumbotron",
+			"dropdown-menu",
+			"dropdown",
+			"h5",
+			"h4",
+			"h5",
+			" </",
+			"01L0491",
+			"Atom",
+			"   \n",
+			"footer",
+			"h2",
+			".black-overlay",
+			"black-overlay",
+			"important",
+			"!important;",
+			"!important",
+			"header",
+			"font-family",
+			"large-3",
+			"h2",
+			"share",
+			"all",
+			"media",
+			"share",
+			"'share'",
+			"share",
+			".share",
+			"share",
+			"large-12",
+			"Recenzje",
+			"background",
+			"'league tables'",
+			"%;",
+			"div",
+			"\n.",
+			"accessibilityCss",
+			"#accessibilityCss",
+			"section",
+			"seciotn",
+			"$result",
+			"$",
+			"height",
+			"backgroudn",
+			"background",
+			"\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis consequatur ea velit nihil, qui dignissimos tenetur, aperiam tempore veniam, harum voluptatum sed. Aliquid illum consectetur, minus ad natus, harum consequatur.\n\t\n\n\t<div>\n\t\t<ul>\n\t\t\t<li>zero</li>\n\t\t\t<li>One</li>\n\t\t\t<li>Two</li>\n\t\t\t<li>Three</li>\n\t\t\t<li>Five</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t\t<li>eight</li>\n\t\t</ul>\n\t</div>\n\n",
+			"div",
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum facilis at qui similique rem modi fugiat? Placeat suscipit odio ratione sit fugit similique ipsam. Autem similique corrupti consequatur! Excepturi, voluptates.\n",
+			"data",
+			"likked",
+			"link",
+			"menu",
+			"\t\t\t\t\t\n",
+			"bar",
+			"icon-bar\"></span>\n\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t<span class=\"icon-b",
+			"bar",
+			"icon-bars",
+			"icon-bar",
+			"()\">",
+			"home section"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"icon-bar",
+			"icon-bars"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 88.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "product.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"cu",
+				"js/custom.js"
+			],
+			[
+				"si",
+				"single.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"boo",
+				"css/bootstrap-theme.css"
+			],
+			[
+				"in",
+				"~/Documents/www/My Websides/6. Bootstrap/App/index.html"
+			],
+			[
+				"bo",
+				"css/bootstrap-theme.css"
+			],
+			[
+				"boot",
+				"js/bootstrap.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

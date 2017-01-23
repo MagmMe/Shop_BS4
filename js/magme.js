@@ -8,14 +8,24 @@
  		 });
 	});
 
-	// $(".chevron-animate").hover(function(){
- //        $(this).css("transform", "rotate(90deg)");
- //        });
-
-	// $(".chevron-animate").active(function(){
- //        $(this).css("transform", "rotate(90deg)");
- //        });
-
+	 	$(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:3,
+                slideMargin: 0,
+                speed:1000,
+                auto:false,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }
+            });
+		});
  		// Usunięcie produktu z koszyka
 
  		$('.product-row').on('click','.remove-item',function(){
@@ -68,5 +78,6 @@
 		       scrollTop: target.offset().top - 200
 		    }, 1000);
 		});
+
 
 }(jQuery));

@@ -6856,7 +6856,7 @@ footer.page-footer {
 
 footer {
   background-color: #fff;
-  box-shadow: -1px -2px 3px #ccc; }
+  box-shadow: -1px -2px 5px 0 rgba(0, 0, 0, 0.16), -1px -2px 10px 0 rgba(0, 0, 0, 0.12); }
   footer .footer-top {
     background-color: #871857;
     font-weight: 100;
@@ -7008,6 +7008,42 @@ footer {
   background: linear-gradient(to left, #B24592, #F15F79);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-top: 10%; }
+  .header-checkout .checkout-container {
+    padding-top: 3%;
+    padding-bottom: 5%; }
+
+.product-main-container {
+  padding-top: 5%; }
+  .product-main-container h2 {
+    color: rgba(233, 30, 99, 0.7); }
+  .product-main-container #image-gallery {
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0; }
+  .product-main-container .lSSlideOuter .lSPager.lSGallery {
+    margin: 0 auto; }
+  .product-main-container .breadcrumb {
+    background-color: white; }
+    .product-main-container .breadcrumb a {
+      color: rgba(233, 30, 99, 0.7); }
+  .product-main-container .btn-fb {
+    background-color: #455897; }
+  .product-main-container select {
+    border: 1px solid #111;
+    background: transparent;
+    width: 50%;
+    padding: 5px 25px 5px 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/icons/down-chevron.png) 96%/5% no-repeat #e6e6e6; }
+
+.product-divider {
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 @media only screen and (max-width: 460px) {
   .view {
@@ -7015,7 +7051,9 @@ footer {
     -webkit-background-size: 100% !important;
     -moz-background-size: 100% !important;
     -o-background-size: 100% !important;
-    background-size: 100% !important; }
+    background-size: 100% !important; } }
+
+@media only screen and (max-width: 768px) {
   .main-magme {
     overflow: hidden; }
   .row-offcanvas {
@@ -7049,9 +7087,7 @@ footer {
     -moz-transform: scale(0.8);
     -ms-transform: scale(0.8);
     -o-transform: scale(0.8);
-    transform: scale(0.8); } }
-
-@media only screen and (max-width: 768px) {
+    transform: scale(0.8); }
   .navbar {
     background-color: #1C2331;
     position: relative; }
