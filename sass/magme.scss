@@ -558,12 +558,15 @@
             }
 
             .footer-center{
-              overflow: hidden;
+              padding-top: 3%;
+              padding-bottom: 3%;
+              margin: 0 auto;
 
                 img{
-                  float: left;
+
                   padding: 3%;
                 }
+
             }
 
             .footer-bottom{
@@ -838,12 +841,35 @@
 
 
 
+  @media only screen and (max-width: 321px) {
+
+    #hero-main{
+            font-size: 2.3rem;
+           }
+
+           .contact-card {
+
+                  .contact-title {
+
+               display: none;
+                  }
+
+                  .contact-mail{
+
+                   font-size: 9px !important;
+                  }
+           }
+
+        .newsletter-card{
+          display: none;
+        }
+
+  }
 
 
+ @media only screen and (max-width: 578px) {
 
-
-  @media only screen and (max-width: 460px) {
-            .view {
+          .view {
             background: url("../img/hero_mobile.jpg") no-repeat !important;
             -webkit-background-size: 100% !important;
             -moz-background-size: 100% !important;
@@ -853,9 +879,27 @@
 
 
 
-        }
+           #hero-main{
+            font-size: 2.5rem;
+           }
 
- @media only screen and (max-width: 768px) {
+           .contact-card {
+
+                  .contact-title {
+
+               -webkit-transform: scale(.6);
+                  -moz-transform: scale(.6);
+                   -ms-transform: scale(.6);
+                    -o-transform: scale(.6);
+                       transform: scale(.6);
+                  }
+
+                  .contact-mail{
+
+                    font-size: .7rem;
+                  }
+           }
+
 
 
            // Mobilne Menu Początek
@@ -939,5 +983,55 @@
             }
 
 
+            .zamowienie-site{
+              padding-bottom: 10%;
 
-        }
+            }
+
+
+            // Register Site
+
+            #home-register{
+
+                .description{
+                  display: none;
+                }
+
+            }
+
+
+
+  }
+
+@media only screen and (min-width: 579px) and (max-width:779px){
+
+  #hero-main{
+            font-size: 2.3rem;
+
+
+            }
+
+            .form-inline .form-control{
+
+              width: 100%;
+            }
+
+            .contact-card {
+
+                  .contact-title {
+                      display: none;
+                  }
+
+                  .contact-mail{
+
+                   font-size: 12px !important;
+                  }
+
+            }
+
+            .newsletter-card{
+                 display: none;
+                }
+
+}
+

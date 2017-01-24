@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
 				"padd",
 				"padding-top"
 			],
@@ -22,10 +38,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"pa",
@@ -50,18 +62,6 @@
 			[
 				"tra",
 				"transition\tCSS - transition: ;"
-			],
-			[
-				"fon",
-				"font-family"
-			],
-			[
-				"margi",
-				"margin-top"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"min",
@@ -520,49 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "sass/magme.scss",
+			"file": "/Users/MarcinMagiera/Downloads/quick-add-to-cart/index.html",
 			"settings":
 			{
-				"buffer_size": 23376,
-				"encoding": "UTF-8",
+				"buffer_size": 9255,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n\n    <title>Dla Kobiety - Stylowa bielizna dla Kobiet, biustonosze</title>\n\n    <!-- Font Awesome -->\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css\">\n    <link rel=\"stylesheet\" href=\"https://cdn.linearicons.com/free/1.0.0/icon-font.min.css\">\n    <!-- Bootstrap core CSS -->\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"css/lightslider.css\" />\n    <link href=\"sass/mdb.css\" rel=\"stylesheet\">\n\n\n    <!-- Material Design Bootstrap -->\n\n\n    <!-- Template styles -->\n\n</head>\n\n<body>\n    <!--Navbar-->\n    <nav class=\"navbar navbar-dark navbar-fixed-top scrolling-navbar\">\n\n        <!-- Collapse button-->\n        <button class=\"navbar-toggler hidden-sm-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseEx\">\n            <i class=\"fa fa-bars\"></i>\n        </button>\n\n        <div class=\"container\">\n\n            <!--Collapse content-->\n            <div class=\"collapse navbar-toggleable-xs\" id=\"collapseEx\">\n                <!--Navbar Brand-->\n                <a class=\"navbar-brand\" href=\"index.html\">Dla Kobiety</a>\n\n                <!-- Magme Menu -->\n\n                <ul class=\"nav navbar-nav\">\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"index.html\">Główna <span class=\"sr-only\">(current)</span></a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"oferta.html\">Pełna oferta sklepu</a>\n                    </li>\n                    <li class=\"nav-item active\">\n                        <a class=\"nav-link\" href=\"kontakt.html\">Kontakt</a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"regulamin.html\">Regulamin</a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"zamowienie.html\">Jak zamawiać?</a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"rozmiary.html\"> Rozmiary</a>\n                    </li>\n\n                </ul> <!-- End Magme Menu -->\n\n                <ul class=\"nav navbar-nav pull-right cart-menu\">\n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"#contact\" data-toggle=\"modal\" data-target=\"#loginForm\"><span class=\"lnr lnr-user\"></span> Konto</a>\n                    </li>\n                    <li class=\"nav-item btn-group\">\n                        <a class=\"nav-link dropdown-toggle\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><span class=\"nav-counter\">3</span> <span class=\"lnr lnr-cart\"></span> Koszyk </a>\n\n                            <div class=\"dropdown-menu dropdown-cart\" aria-labelledby=\"dropdownMenu1\">\n\n                                <ul class=\"dropdown-item item\">\n                                    <li class=\"item-left\"><img src=\"img/cart_mini1.jpg\" alt=\"\" class=\"img-fluid\" width=\"30px\"></li>\n                                    <li class=\"item-left\"><a href=\"#\" class=\"title\">Biustonosz</a></li>\n                                    <li class=\"item-left price\">32 zł</li>\n                                    <li class=\"item-right\"><button class=\"btn btn-sm btn-pink pull-right\">x</button></li>\n                                </ul>\n                                <ul class=\"dropdown-item item\">\n                                    <li class=\"item-left\"><img src=\"img/cart_mini2.jpg\" alt=\"\" class=\"img-fluid\" width=\"30px\"></li>\n                                    <li class=\"item-left\"><a href=\"#\" class=\"title\">Biustonosz</a></li>\n                                    <li class=\"item-left price\">32 zł</li>\n                                    <li class=\"item-right\"><button class=\"btn btn-sm btn-pink pull-right\">x</button></li>\n                                </ul>\n                                <ul class=\"dropdown-item item\">\n                                    <li class=\"item-left\"><img src=\"img/cart_mini1.jpg\" alt=\"\" class=\"img-fluid\" width=\"30px\"></li>\n                                    <li class=\"item-left\"><a href=\"#\" class=\"title\">Biustonosz</a></li>\n                                    <li class=\"item-left price\">32 zł</li>\n                                    <li class=\"item-right\"><button class=\"btn btn-sm btn-pink pull-right\">x</button></li>\n                                </ul>\n\n                                <a href=\"checkout.html\" class=\"dropdown-item text-xs-center waves-effect\"><span class=\"lnr lnr-cart\"></span> Przejdź do koszyka</a>\n                                <p  class=\"dropdown-item text-xs-center\">Do rabatu 4% brakuje Ci 60 zł</p>\n\n                            </div>\n                    </li>\n                </ul>\n\n            </div>\n            <!--/.Collapse content-->\n\n        </div>\n\n    </nav>\n    <!--/.Navbar-->\n\n\n        <!--Carousel Wrapper-->\n    <div id=\"carousel-example-1\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\">\n\n        <!--Slides-->\n        <div class=\"carousel-inner\" role=\"listbox\">\n\n            <!--First slide-->\n            <div class=\"carousel-item contact active\">\n                <!--Caption-->\n                <div class=\"flex-center animated fadeInDown\">\n                    <ul>\n                        <li>\n                            <h1 class=\"h1-responsive\">Skontaktuj się z nami</h1></li>\n                        <li>\n                            <p>Odpowiemy na wszystkie Twoje pytania.</p>\n                        </li>\n                    </ul>\n                </div>\n                <!--Caption-->\n            </div>\n            <!--/.First slide-->\n\n        </div>\n        <!--/.Slides-->\n\n    </div>\n    <!--/.Carousel Wrapper-->\n\n\n<!-- Magme E-commerce -->\n\n<div class=\"container-fluid main-magme\" id=\"end\">\n    <div class=\"row row-offcanvas row-offcanvas-left second-menu\">\n\n        <div class=\"col-xs-6 col-sm-3 sidebar-offcanvas\" id=\"sidebar\">\n\n            <div id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                  <div class=\"card waves-effect\">\n                      <div class=\"card-header active \">\n                      <h5 class=\"mb-0 \"><a href=\"index.html\">Nowości i Promocje</a></h5>\n                      </div>\n                  </div>\n                  <div class=\"card waves-light\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                      <h5 class=\"mb-0\">\n                        <a data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\"> <span class=\"lnr lnr-chevron-right float-lg-left\"></span>\n                          Bielizna\n                          </a>\n                      </h5>\n                    </div>\n                    <div id=\"collapseOne\" class=\"collapse show\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                      <div class=\"list-group\">\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Biustonosz</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Majtki i Stringi</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Gorset</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Bielizna Nocna</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Pas do pończoch</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Koszulki / Topy</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Body</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Kalesony</a>\n                        <a href=\"#\" class=\"list-group-item list-group-item-action\">Halki</a>\n\n                      </div>\n                    </div>\n                </div>\n                  <div class=\"card waves-light\">\n                    <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                      <h5 class=\"mb-0\">\n                        <a class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\"><span class=\"lnr lnr-chevron-right float-lg-left\"></span>\n                          Pończochy i Rajstopy\n                        </a>\n                      </h5>\n                    </div>\n                        <div id=\"collapseTwo\" class=\"collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                          <div class=\"list-group\">\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Rajstopy</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Podkolanówki</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Pończochy</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Zakolanówki</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Skarpety</a>\n                          </div>\n                        </div>\n                    </div>\n                    <div class=\"card waves-effect\">\n                      <div class=\"card-header\">\n                        <h5 class=\"mb-0\"><a href=\"#\">Akcesoria</a></h5>\n                      </div>\n                    </div>\n                    <div class=\"card waves-effect\">\n                      <div class=\"card-header\">\n                        <h5 class=\"mb-0\"><a href=\"#\">Dodatki</a></h5>\n                      </div>\n                    </div>\n                    <div class=\"card waves-effect\">\n                      <div class=\"card-header\">\n                        <h5 class=\"mb-0\"><a href=\"#\">Kostium Kąpielowy</a></h5>\n                      </div>\n                    </div>\n                      <div class=\"card waves-light\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                          <h5 class=\"mb-0\">\n                            <a class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\"><span class=\"lnr lnr-chevron-right float-lg-left chevron-animate\"></span>\n                              Odzież\n                            </a>\n                          </h5>\n                        </div>\n                        <div id=\"collapseSix\" class=\"collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\">\n                          <div class=\"list-group\">\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Sukienka</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Koszula</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Żakiet</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Spodnie</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Spódnice</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Dres</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Golf</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Bluzka</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Ocieplacze</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Leginsy</a>\n                            <a href=\"#\" class=\"list-group-item list-group-item-action\">Bluza</a>\n                          </div>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\" class=\"waves-effect\">Nakrycia głowy</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\" class=\"waves-effect\">Szaliki i apaszki</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\" class=\"waves-effect\">Kapcie</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\" class=\"waves-effect\">Kamizelki</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\" class=\"waves-effect\">Akcesoria</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\" class=\"waves-effect\">Portfele</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\" class=\"waves-effect\">Etui</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\">Kosmetyczki</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\">Paski</a></h5>\n                        </div>\n                      </div>\n                      <div class=\"card waves-effect\">\n                        <div class=\"card-header\">\n                          <h5 class=\"mb-0\"><a href=\"#\">Torby</a></h5>\n                        </div>\n                      </div>\n                </div> <!-- Koniec Menu -->\n                <div class=\"card search-sidebar\">  <!-- Wyszukiwarka -->\n                    <div class=\"widget-wrapper card-block\">\n                          <div class=\"divider-new\">\n                              <h4>Wyszukiwarka</h4>\n                          </div>\n                          <!--Search-->\n                          <form class=\"form-inline\">\n                             <input class=\"form-control\" type=\"text\" placeholder=\"Szukaj\">  <span class=\"lnr lnr-magnifier\"></span>\n                          </form>\n                    </div>\n                </div> <!-- Wyszukiwarka koniec -->\n                <!-- Konfigurator rozmiarów -->\n                <div class=\"card config-sidebar\">\n                  <div class=\"widget-wrapper card-block\">\n                    <div class=\"divider-new\">\n                        <h4>Konfigurator</h4>\n                    </div>\n                    <div>\n                      <select class=\"custom-select d-block\">\n                          <option selected>Po Producencie</option>\n                          <option value=\"1\">Calzedonia</option>\n                          <option value=\"2\">Inimissimi</option>\n                          <option value=\"3\">Obsessive</option>\n                      </select>\n                    </div>\n                    <div class=\"divider-new\">\n                        <h4>Dla Kategorii</h4>\n                    </div>\n                    <div>\n                      <select class=\"custom-select d-block\">\n                          <option selected>Rozmiar Biustonosza</option>\n                          <option value=\"1\">AA</option>\n                          <option value=\"2\">A</option>\n                          <option value=\"3\">B</option>\n                          <option value=\"4\">C</option>\n                          <option value=\"5\">D</option>\n                          <option value=\"6\">DD</option>\n                          <option value=\"7\">E</option>\n                          <option value=\"8\">FF</option>\n                          <option value=\"9\">G</option>\n                      </select>\n                    </div>\n                    <br>\n                    <div>\n                      <select class=\"custom-select d-block\">\n                          <option selected>Rozmiar majtek</option>\n                          <option value=\"1\">XS</option>\n                          <option value=\"2\">S</option>\n                          <option value=\"3\">M</option>\n                          <option value=\"4\">L</option>\n                          <option value=\"5\">XL</option>\n                      </select>\n                    </div>\n                  </div>\n                </div> <!-- Konfigurator Rozmiarów Koniec -->\n\n        </div><!--/span-->\n\n\n        <div class=\"home-magme col-xs-12 col-sm-9\">\n\n\n\n                    <!--Produkcty hidden Button-->\n                    <div class=\"row\">\n                      <div class=\"col-xs-12\">\n                            <p class=\"float-xs-left hidden-sm-up\">\n                                <button type=\"button\" class=\"btn btn-primary btn-lg btn-pink\" data-toggle=\"offcanvas\"> <span class=\"lnr lnr-chevron-left\"></span> Produkty</button>\n                            </p>\n                      </div>\n                    </div> <!-- End Row -->\n\n                    <div class=\"row\">\n                        <div class=\"col-xs-12 \">\n                            <div class=\"divider-new\">\n                                <h2 class=\"h2-responsive\">Bielizna</h2>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"row product-main-container\">\n                      <div class=\"col-xs-12 col-md-6\"> <!-- Galeria Produktów -->\n                        <div class=\"clearfix\">\n                                <ul id=\"image-gallery\" class=\"gallery list-unstyled cS-hidden\">\n                                    <li data-thumb=\"img/thumbs/mini1.jpg\">\n                                        <img src=\"img/product_detail_1.jpg\" class=\"img-fluid img-thumbnail\" />\n                                         </li>\n                                    <li data-thumb=\"img/thumbs/mini2.jpg\">\n                                        <img src=\"img/product_detail_2.jpg\" class=\"img-fluid img-thumbnail\" />\n                                         </li>\n                                    <li data-thumb=\"img/thumbs/mini3.jpg\">\n                                        <img src=\"img/product_detail_3.jpg\" class=\"img-fluid img-thumbnail\" />\n                                         </li>\n\n                                  </ul>\n                          </div>\n                      </div> <!-- Koniec Galerii Produktów -->\n                      <div class=\"col-xs-12 col-md-6\">\n                        <nav class=\"breadcrumb\">\n                          <a class=\"breadcrumb-item\" href=\"#\">Home</a>\n                          <a class=\"breadcrumb-item\" href=\"#\">Bielizna</a>\n                          <span class=\"breadcrumb-item active\">Biustonosz</span>\n                        </nav>\n                        <h2>Gorsenia-K106-Sensuelle</h2>\n                        <hr>\n                        <p>Piękny stanik Sensuelle rodzaju bardotka. Miseczki pokryte piękną koronką w kwiatowy deseń. Góra miseczki ozdobiona tiulową siateczką z haftowanymi kwiatkami i cyrkoniami. Uroku dodaje malutka kokardka z zawieszką. Druty i fiszki pionowe stabilnie utrzymują i Bardzo dobrze podnoszą i układają biust. stanik ma silikonową taśmę, dzięki której można go swobodnie nosić bez ramiączek. Do kompletu można dokupić majtki lub stringi Sensuelle. Skład: 90% tkanina poliamidowa, 7% tkanina z elastanu, 3% poliester.</p>\n                        <hr>\n                        <ul class=\"rating inline-ul\">\n                          <li>Ocena klientów:</li>\n                          <li><span class=\"lnr lnr-star amber-text text-darken-3\"></span></li>\n                          <li><span class=\"lnr lnr-star amber-text text-darken-3\"></span></li>\n                          <li><span class=\"lnr lnr-star amber-text text-darken-3\"></span></li>\n                          <li><span class=\"lnr lnr-star amber-text text-darken-3\"></span></li>\n                          <li><span class=\"lnr lnr-star\"></span></li>\n                        </ul>\n                        <button type=\"button\" class=\"btn btn-lg btn-fb btn-blue\"><i class=\"fa fa-facebook left\"></i>Poleć ten produkt</button>\n                        <br><br>\n                        <h4>Producent <span class=\"tag black\"><a href=\"#\">Calzedonia</a></span></h4><br>\n                        <h5>Wybierz rozmiar bielizny</h5>\n                        <select class=\"custom-select d-block\">\n                          <option selected>Rozmiar Biustonosza</option>\n                          <option value=\"1\">AA</option>\n                          <option value=\"2\">A</option>\n                          <option value=\"3\">B</option>\n                          <option value=\"4\">C</option>\n                          <option value=\"5\">D</option>\n                          <option value=\"6\">DD</option>\n                          <option value=\"7\">E</option>\n                          <option value=\"8\">FF</option>\n                          <option value=\"9\">G</option>\n                        </select>\n                            <br>\n                        <select class=\"custom-select\">\n                          <option selected>Wybierz ilość</option>\n                          <option value=\"1\">1</option>\n                          <option value=\"2\">2</option>\n                          <option value=\"3\">3</option>\n                          <option value=\"4\">4</option>\n                          <option value=\"5\">5</option>\n                          <option value=\"6\">6</option>\n                          <option value=\"7\">7</option>\n                        </select>\n                          <hr>\n                          <h3>Cena: 78.82zł/szt.</h3>\n                        <button type=\"button\" class=\"btn btn-pink\"><span class=\"lnr lnr-cart\"></span> Dodaj do koszyka</button>\n                      </div>\n                    </div>\n\n\n\n          </div>  <!-- Magme E-commerce -->\n\n    </div><!--/.container fludi-->\n\n\n  </div>\n\n\n              <footer>\n                <div class=\"container-fluid\">\n                  <div class=\"row footer-top\">\n                    <div class=\"col-md-4 column-footer\">\n                      <h3 class=\"contact-title\">Dla Kobiety</h3>\n                      <h5>Oferta Sklepu</h5>\n                      <p>Asortyment naszego sklepu stanowią poszczególne działy: ekskluzywna bielizna dla kobiet, nakrycia głowy, rękawiczki, sukienki, galanteria,kostiumy kąpielowe oraz stylowe dodatki. Naszym klientom oferujemy starannie dobrane kolekcje, które obejmują bogactwo ciekawych i najmodniejszych projektów na każdą porę roku – od zimy po lato. Polecamy również niebanalne propozycje dla kobiet świadomych swojego ciała, jak seksowna bielizna damska, sukienki, czy zakolanówki.</p>\n                      <p>Zapraszamy na zakupy!</p>\n                    </div>\n                    <div class=\"col-md-4 column-footer\">\n                    <h3>Porady</h3>\n                    <br>\n                     <h6>Jak dobrać biustonosz? <span class=\"tag blue\"><a href=\"#\">Sprawdź</a></span></h6>\n                     <h5>Rodzaje biustonoszy <span class=\"tag green\"><a href=\"#\">Sprawdź</a></span></h5>\n                     <h4>Magia bielizny erotycznej <span class=\"tag red\"><a href=\"#\">Sprawdź</a></span></h4>\n                    </div>\n\n                    <div class=\"col-md-4 column-footer\">\n                      <h3>Polub nasz fanpage!</h3>\n                      <br>\n                      <!--Facebook-->\n                      <button type=\"button\" class=\"btn btn-lg btn-fb btn-blue\"><i class=\"fa fa-facebook left\"></i> Facebook</button>\n                      <br><br>\n                      <p><a href=\"#\">Kontakt</a></p>\n                      <p><a href=\"#\">Regulamin</a></p>\n                      <p><a href=\"#\">Jak zamawiać?</a></p>\n                      <p><a href=\"#\">Polityka prywatności</a></p>\n                      <br>\n                    </div>\n                  </div>\n                  <div class=\"row footer-center\">\n                    <div class=\"col-xs-12 logos\">\n                      <img src=\"img/przelewy24_logo.png\" alt=\"\" class=\"img-fluid\" width=\"200px\">\n                      <img src=\"img/ssl.png\" alt=\"\" class=\"img-fluid\" width=\"200px\">\n                      <img src=\"img/credit.png\" alt=\"\" class=\"img-fluid\" width=\"200px\">\n                      <img src=\"img/ing.png\" alt=\"\" class=\"img-fluid\" width=\"200px\">\n                      <img src=\"img/pko.png\" alt=\"\" class=\"img-fluid\" width=\"200px\">\n                      <img src=\"img/mbank.png\" alt=\"\" class=\"img-fluid\" width=\"200px\">\n\n                    </div>\n\n                  </div>\n                  <div class=\"row footer-bottom\">\n                    <div class=\"col-xs-12\">\n                      <p>&copy;2017 DlaKobiety.com.pl. Wszelkie prawa zastrzeżone.</p>\n                    </div>\n                  </div>\n\n                </div>\n              </footer>\n\n<!-- Panel Logowania Klienta -->\n\n<!-- Modal -->\n<div class=\"modal fade bd-example-modal-sm\" id=\"loginForm\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\">\n    <div class=\"modal-dialog\" role=\"document\">\n        <!--Content-->\n        <div class=\"modal-content\">\n            <div class=\"row\">\n                <div class=\"col-sm-6 hidden-xs-down\">\n                        <img src=\"img/login_form_img.jpg\" class=\"img-fluid\" alt=\"\">\n                </div>\n                <div class=\"col-sm-6\">\n                                <!--Header-->\n                        <div class=\"modal-header\">\n                            <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                                <span aria-hidden=\"true\">&times;</span>\n                            </button>\n                            <h4 class=\"modal-title text-sm-center\" id=\"myModalLabel\"> Panel Klienta</h4>\n                        </div>\n                        <!--Body-->\n                        <div class=\"modal-body\">\n                            <div class=\"form-intro\">\n                                <p>Zaloguj się do sklepu używająć swojego loginu lub e-maila.</p>\n                            </div>\n                            <div class=\"md-form\">\n                                <span class=\"lnr lnr-user prefix\"></span>\n                                <input type=\"text\" id=\"form2\" class=\"form-control\">\n                                <label for=\"form2\">Podaj login lub adres e-mail</label>\n                            </div>\n                            <div class=\"md-form\">\n                                <span class=\"lnr lnr-lock prefix\"></span>\n                                <input type=\"password\" id=\"form3\" class=\"form-control\">\n                                <label for=\"form3\">Twoje hasło</label>\n                            </div>\n                            <div>\n                                    <button type=\"button\" class=\"btn btn-secondary btn-pink\" data-dismiss=\"modal\">Zaloguj</button>\n                            </div>\n                        </div>\n\n                        <!--Footer-->\n                        <div class=\"modal-footer form-register\">\n                            <p>Nie masz konta? Zarejestruj się <a href=\"register.html\"><span class=\"lnr lnr-arrow-right\"></span> tutaj</a></p>\n                            <p>Nie pamiętasz hasła? Kliknij <a href=\"forget.html\"><span class=\"lnr lnr-arrow-right\"></span> tutaj</a></p>\n                        </div>\n                </div>\n            </div>\n\n        </div>\n        <!--/.Content-->\n    </div>\n</div>\n<!-- /.Live preview-->\n\n\n<!-- New login modal -->\n\n\n\n\n    <!-- SCRIPTS -->\n\n    <!-- JQuery -->\n    <script type=\"text/javascript\" src=\"js/jquery-2.2.3.min.js\"></script>\n\n    <!-- Bootstrap tooltips -->\n    <script type=\"text/javascript\" src=\"js/tether.min.js\"></script>\n\n    <!-- Bootstrap core JavaScript -->\n    <script type=\"text/javascript\" src=\"js/bootstrap.min.js\"></script>\n\n    <!-- MDB core JavaScript -->\n    <script type=\"text/javascript\" src=\"js/mdb.min.js\"></script>\n\n    <!--Google Maps-->\n    <script src=\"http://maps.google.com/maps/api/js\"></script>\n\n    <!-- Magme script -->\n\n    <script type=\"text/javascript\" src=\"js/magme.js\"></script>\n\n    <!-- Slider Script -->\n    <script src=\"js/lightslider.js\"></script>\n\n\n    <!-- Animations init-->\n    <script>\n        new WOW().init();\n    </script>\n\n\n</body>\n\n</html>",
-			"file": "product.html",
-			"file_size": 29438,
-			"file_write_time": 131296031220000000,
+			"file": "/Users/MarcinMagiera/Downloads/quick-add-to-cart/scss/style.scss",
 			"settings":
 			{
-				"buffer_size": 29349,
-				"encoding": "UTF-8",
+				"buffer_size": 9532,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/mdb.css",
+			"file": "/Users/MarcinMagiera/Downloads/quick-add-to-cart/js/main.js",
 			"settings":
 			{
-				"buffer_size": 191456,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/MarcinMagiera/Downloads/ecommerce-product-page/index.html",
-			"settings":
-			{
-				"buffer_size": 15474,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/magme.js",
-			"settings":
-			{
-				"buffer_size": 2247,
-				"encoding": "UTF-8",
+				"buffer_size": 3872,
 				"line_ending": "Unix"
 			}
 		}
@@ -916,27 +893,29 @@
 	],
 	"file_history":
 	[
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/product.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/magme.scss",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/js/magme.js",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/checkout.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/forget.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/register.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/rozmiary.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/zamowienie.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/regulamin.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/kontakt.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/oferta.html",
+		"/Users/MarcinMagiera/Library/Caches/com.binarynights.ForkLift-3/E99FDDE8-B691-43A2-AD13-65CC9AECBFD5/index.html",
+		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb.css",
+		"/Users/MarcinMagiera/Downloads/ecommerce-product-page/index.html",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/css/lightslider.css",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/js/lightslider.js",
 		"/Users/MarcinMagiera/Downloads/lightslider-master/demo/index.html",
 		"/Users/MarcinMagiera/Downloads/lightslider-master/test/lightslider.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/checkout.html",
 		"/Users/MarcinMagiera/Downloads/lightslider-master/dist/css/lightslider.css",
 		"/Users/MarcinMagiera/Downloads/tkahn-Smooth-Div-Scroll-1c3b3a6/index.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/oferta.html",
-		"/Users/MarcinMagiera/Downloads/ecommerce-product-page/index.html",
 		"/Users/MarcinMagiera/Downloads/quick-add-to-cart/index.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/kontakt.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/zamowienie.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/forget.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/rozmiary.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/regulamin.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/register.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/index.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/js/magme.js",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/magme.scss",
 		"/Users/MarcinMagiera/Downloads/half-page-carousel/index.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v1/sass/mdb.css",
 		"/Users/MarcinMagiera/Downloads/Linearicons-Free-v1.0.0/Web Font/demo.html",
 		"/Users/MarcinMagiera/Downloads/my-icons-collection/My icons collection-SVG-Sprites-Demo.html",
 		"/Users/MarcinMagiera/Downloads/ecommerce-home-page/index.html",
@@ -1041,9 +1020,7 @@
 		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/skup.html",
 		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/kontakt.html",
 		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/katalogi.html",
-		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/czesciSingle.html",
-		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/czesci.html",
-		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/index.html"
+		"/Users/MarcinMagiera/Desktop/Nikta/Niktav2/czesciSingle.html"
 	],
 	"find":
 	{
@@ -1062,6 +1039,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"box-logo",
+			"logos",
 			".para-register",
 			"view",
 			"td",
@@ -1172,24 +1151,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "sass/magme.scss",
+					"file": "/Users/MarcinMagiera/Downloads/quick-add-to-cart/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23376,
+						"buffer_size": 9255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20404,
-								20404
+								323,
+								323
 							]
 						],
 						"settings":
@@ -1199,27 +1178,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										20837,
-										20838
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										20273,
-										20274
-									]
 								},
 								"unmatched":
 								{
@@ -1227,11 +1191,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1252,149 +1211,41 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 12847.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "product.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19419,
-								19419
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										19419,
-										19422
-									]
-								}
-							},
-							"bracket_highlighter.regions":
-							[
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"incomplete_sync": null,
@@ -1402,31 +1253,137 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6997.0,
+						"translation.y": 531.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
+					"buffer": 1,
+					"file": "/Users/MarcinMagiera/Downloads/quick-add-to-cart/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
 					"buffer": 2,
-					"file": "sass/mdb.css",
+					"file": "/Users/MarcinMagiera/Downloads/quick-add-to-cart/js/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 191456,
+						"buffer_size": 3872,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24990,
-								24964
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1449,11 +1406,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1474,283 +1426,41 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 19422.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/MarcinMagiera/Downloads/ecommerce-product-page/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15474,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7301,
-								6830
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										7298,
-										7300
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										6831,
-										6833
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2730.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/magme.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								570,
-								570
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										738,
-										739
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										399,
-										400
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"incomplete_sync": null,
@@ -1760,10 +1470,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

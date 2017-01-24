@@ -6871,9 +6871,10 @@ footer {
     footer .footer-top p {
       margin-bottom: 0; }
   footer .footer-center {
-    overflow: hidden; }
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0 auto; }
     footer .footer-center img {
-      float: left;
       padding: 3%; }
   footer .footer-bottom {
     background-color: #1C2331;
@@ -7045,15 +7046,33 @@ footer {
   padding-top: 5%;
   padding-bottom: 5%; }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 321px) {
+  #hero-main {
+    font-size: 2.3rem; }
+  .contact-card .contact-title {
+    display: none; }
+  .contact-card .contact-mail {
+    font-size: 9px !important; }
+  .newsletter-card {
+    display: none; } }
+
+@media only screen and (max-width: 578px) {
   .view {
     background: url("../img/hero_mobile.jpg") no-repeat !important;
     -webkit-background-size: 100% !important;
     -moz-background-size: 100% !important;
     -o-background-size: 100% !important;
-    background-size: 100% !important; } }
-
-@media only screen and (max-width: 768px) {
+    background-size: 100% !important; }
+  #hero-main {
+    font-size: 2.5rem; }
+  .contact-card .contact-title {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6); }
+  .contact-card .contact-mail {
+    font-size: .7rem; }
   .main-magme {
     overflow: hidden; }
   .row-offcanvas {
@@ -7099,4 +7118,20 @@ footer {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; } }
+    background-size: cover; }
+  .zamowienie-site {
+    padding-bottom: 10%; }
+  #home-register .description {
+    display: none; } }
+
+@media only screen and (min-width: 579px) and (max-width: 779px) {
+  #hero-main {
+    font-size: 2.3rem; }
+  .form-inline .form-control {
+    width: 100%; }
+  .contact-card .contact-title {
+    display: none; }
+  .contact-card .contact-mail {
+    font-size: 12px !important; }
+  .newsletter-card {
+    display: none; } }
