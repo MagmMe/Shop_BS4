@@ -92,7 +92,7 @@ jQuery(document).ready(function($){
 		//you should insert an item with the selected product info
 		//replace productId, productName, price and url with your real product info
 		productId = productId + 1;
-		var productAdded = $('<li class="product"><div class="product-image"><a href="#0"><img src="img/cart_mini1.jpg" alt="placeholder" width="100px"></a></div><div class="product-details"><h3><a href="#0">Biustonosz</a></h3><span class="price">79.99 zł</span><div class="actions"><a href="#0" class="delete-item">Usuń</a><div class="quantity"><label for="cd-product-'+ productId +'">Ilość</label><span class="select"><select id="cd-product-'+ productId +'" name="quantity"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></span></div></div></div></li>');
+		var productAdded = $('<li class="product"><div class="product-image"><a href="#0"><img src="img/cart_mini1.jpg" alt="placeholder"></a></div><div class="product-details"><h3><a href="#0">Product Name</a></h3><span class="price">25.99 zł</span><div class="actions"><a href="#0" class="delete-item">Usuń</a><div class="quantity"><label for="cd-product-'+ productId +'">Ilość</label><span class="select"><select id="cd-product-'+ productId +'" name="quantity"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></span></div></div></div></li>');
 		cartList.prepend(productAdded);
 	}
 
@@ -102,7 +102,7 @@ jQuery(document).ready(function($){
 
 		var topPosition = product.offset().top - cartBody.children('ul').offset().top ,
 			productQuantity = Number(product.find('.quantity').find('select').val()),
-			productTotPrice = Number(product.find('.price').text().replace('$', '')) * productQuantity;
+			productTotPrice = Number(product.find('.price').text().replace('zł', '')) * productQuantity;
 
 		product.css('top', topPosition+'px').addClass('deleted');
 
@@ -125,7 +125,7 @@ jQuery(document).ready(function($){
 		cartList.children('li:not(.deleted)').each(function(){
 			var singleQuantity = Number($(this).find('select').val());
 			quantity = quantity + singleQuantity;
-			price = price + singleQuantity*Number($(this).find('.price').text().replace('$', ''));
+			price = price + singleQuantity*Number($(this).find('.price').text().replace('zł', ''));
 		});
 
 		cartTotal.text(price.toFixed(2));
