@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>Dla Kobiety - Stylowa bielizna dla Kobiet, biustonosze</title>
@@ -13,14 +12,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <!-- Bootstrap core CSS -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-cart.css" rel="stylesheet">
      <link href="sass/mdb.css" rel="stylesheet">
-
-    <!-- Material Design Bootstrap -->
-
-
-    <!-- Template styles -->
-
 </head>
 
 <body>
@@ -29,7 +23,7 @@
 
         <!-- Collapse button-->
         <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
-            <i class="fa fa-bars"></i>
+            <span class="lnr lnr-menu"></span>
         </button>
 
         <div class="container">
@@ -42,6 +36,7 @@
                 <!-- Magme Menu -->
 
                 <ul class="nav navbar-nav">
+                     <li class="nav-item search-item hidden-sm-up"><a href="#" class="nav-link" data-toggle="modal" data-target="#searchOnSite"><span class="lnr lnr-magnifier"></span> Znajdź</a></li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Główna <span class="sr-only">(current)</span></a>
                     </li>
@@ -60,6 +55,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="rozmiary.html"> Rozmiary</a>
                     </li>
+                    <!-- Języki -->
+                      <li class="nav-item btn-group">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img src="img/lang/lang-pl.jpg" width="20px;" alt=""> </a>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <ul class="dropdown-item item item-lang">
+                              <li class="item-left "><a href=""><img src="img/lang/lang-eng.jpg" alt=""> English</a></li>
+                            </ul>
+                          </div>
+                      </li>
 
                 </ul> <!-- End Magme Menu -->
 
@@ -97,6 +101,8 @@
 
                             </div>
                     </li>
+                    <!-- Koniec koszyka produktów w menu górnym -->
+                      <li class="nav-item hidden-xs-down"><a href="#" class="nav-link" data-toggle="modal" data-target="#searchOnSite"><span class="lnr lnr-magnifier"></span></a></li>
                 </ul>
 
             </div>
@@ -281,19 +287,9 @@
                         </div>
                       </div>
                 </div> <!-- Koniec Menu -->
-                <div class="card search-sidebar">  <!-- Wyszukiwarka -->
-                    <div class="widget-wrapper card-block">
-                          <div class="divider-new">
-                              <h4>Wyszukiwarka</h4>
-                          </div>
-                          <!--Search-->
-                          <form class="form-inline">
-                             <input class="form-control" type="text" placeholder="Szukaj">  <span class="lnr lnr-magnifier"></span>
-                          </form>
-                    </div>
-                </div> <!-- Wyszukiwarka koniec -->
+
                 <!-- Konfigurator rozmiarów -->
-                <div class="card config-sidebar">
+                <div class="card config-sidebar hidden-sm-down">
                   <div class="widget-wrapper card-block">
                     <div class="divider-new">
                         <h4>Konfigurator</h4>
@@ -337,7 +333,7 @@
                   </div>
                 </div> <!-- Konfigurator Rozmiarów Koniec -->
                  <!-- Kontakt Wrapper -->
-                <div class="widget-wrapper">
+                <div class="widget-wrapper hidden-sm-down">
                     <div class="card contact-card">
                       <div class="card-block">
                           <div class="divider-new">
@@ -352,7 +348,7 @@
                                 43-300 Bielsko-Biała <br><br>
                                 <span class="lnr lnr-phone-handset"></span> <a href="tel:334446205">+48 334446205</a><br>
                                 <span class="lnr lnr-printer"></span> FAX: +48 327570090 <br><br>
-                                <span class="lnr lnr-envelope"></span> <a href="mailto:sklep@dlakobiety.com.pl">sklep@dlakobiety.com.pl</a>
+                                <span class="lnr lnr-envelope"></span> <a href="mailto:sklep@dlakobiety.com.pl" class="contact-mail">sklep@dlakobiety.com.pl</a>
                               </address>
                             </h5>
                           </div>
@@ -360,7 +356,7 @@
                       </div>
                     </div>
                   </div> <!-- Koniec Kontakr Wrapper -->
-                <div class="widget-wrapper">
+                <div class="widget-wrapper hidden-sm-down">
                           <div class="card newsletter-card">
                               <div class="card-block">
                                       <div class="divider-new">
@@ -425,7 +421,84 @@
                             <h5><strong>Zapraszamy i życzymy udanych zakupów w naszym sklepie <span class="lnr lnr-smile"></span></strong></h5>
                         </div>
 
+
                       </div><!--/span-->
+
+                      <div class="row">
+                      <div class="col-md-12">
+                        <div class="card config-sidebar hidden-md-up">
+                            <div class="widget-wrapper card-block">
+                              <div class="divider-new">
+                                  <h4>Konfigurator</h4>
+                              </div>
+                              <div>
+                                <select class="custom-select d-block">
+                                    <option selected>Po Producencie</option>
+                                    <option value="1">Calzedonia</option>
+                                    <option value="2">Inimissimi</option>
+                                    <option value="3">Obsessive</option>
+                                </select>
+                              </div>
+                              <div class="divider-new">
+                                  <h4>Dla Kategorii</h4>
+                              </div>
+                              <div>
+                                <select class="custom-select d-block">
+                                    <option selected>Rozmiar Biustonosza</option>
+                                    <option value="1">AA</option>
+                                    <option value="2">A</option>
+                                    <option value="3">B</option>
+                                    <option value="4">C</option>
+                                    <option value="5">D</option>
+                                    <option value="6">DD</option>
+                                    <option value="7">E</option>
+                                    <option value="8">FF</option>
+                                    <option value="9">G</option>
+                                </select>
+                              </div>
+                              <br>
+                              <div>
+                                <select class="custom-select d-block">
+                                    <option selected>Rozmiar majtek</option>
+                                    <option value="1">XS</option>
+                                    <option value="2">S</option>
+                                    <option value="3">M</option>
+                                    <option value="4">L</option>
+                                    <option value="5">XL</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div> <!-- Konfigurator Rozmiarów Koniec -->
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="widget-wrapper hidden-md-up">
+                          <div class="card newsletter-card">
+                              <div class="card-block">
+                                      <div class="divider-new">
+                                        <h4>Newsletter</h4>
+                                      </div>
+                                      <p><strong> Zapisz się i bądź na bieżąco.</strong></p>
+                                      <p>Otrzymuj wyjątkowe oferty i spraw sobie radosć.</p>
+                                      <div class="md-form">
+                                          <span class="lnr lnr-user prefix"></span>
+                                          <input type="text" id="form1" class="form-control">
+                                          <label for="form1">Twoje imię</label>
+                                      </div>
+                                      <div class="md-form">
+                                          <span class="lnr lnr-envelope prefix"></span>
+                                          <input type="text" id="form2" class="form-control">
+                                          <label for="form2">Twój e-mail</label>
+                                      </div>
+                                      <button class="btn btn-primary">Subskrybuj</button>
+
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
 
       </div><!--/row-->
 
@@ -434,8 +507,39 @@
 </div><!--/.container-->
 <!-- Magme E-commerce -->
 
+<!-- Koszyk -->
 
-              <footer>
+<div class="cd-cart-container empty">
+  <a href="#0" class="cd-cart-trigger">
+    Koszyk
+    <ul class="count"> <!-- cart items count -->
+      <li>0</li>
+      <li>0</li>
+    </ul> <!-- .count -->
+  </a>
+
+  <div class="cd-cart">
+    <div class="wrapper">
+      <header>
+        <h2>Twój Koszyk</h2>
+        <span class="undo">Usunąłeś produkt. <a href="#0">Cofnij</a></span>
+      </header>
+
+      <div class="body">
+        <ul>
+          <!-- products added to the cart will be inserted here using JavaScript -->
+        </ul>
+      </div>
+
+      <footer>
+        <a href="checkout.html" class="checkout"><em>Suma koszyka: <span>0</span> zł</em></a>
+      </footer>
+    </div>
+  </div> <!-- .cd-cart -->
+</div> <!-- cd-cart-container -->
+
+
+              <footer class="page-footer">
                 <div class="container-fluid">
                   <div class="row footer-top">
                     <div class="col-md-4 column-footer">
@@ -467,7 +571,7 @@
                   </div>
                   <div class="container">
                     <div class="boxLogo">
-                        <div class="row footer-center">
+                        <div class="row footer-center center-on-small-only">
                             <div class="col-xs-12 col-sm-2">
                               <img src="img/przelewy24_logo.png" alt="" class="img-fluid" width="200px">
                             </div>
@@ -497,6 +601,31 @@
 
                 </div>
               </footer>
+
+
+<!-- Modal Wyszukiwarka -->
+
+<!-- Modal -->
+<div class="modal fade search-modal" id="searchOnSite" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Znajdź w naszym sklepie">
+                  <span class="input-group-btn">
+                    <button class="btn btn-secondary btn-pink" type="button">Szukaj</button>
+                  </span>
+                  </div>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- /.Live preview-->
+
+<!-- /. Modal wyszukiwarka -->
 
 <!-- Panel Logowania Klienta -->
 
@@ -573,6 +702,10 @@
 
     <!--Google Maps-->
     <script src="http://maps.google.com/maps/api/js"></script>
+
+        <!-- Efekt koszyka -->
+
+    <script src="js/main.js"></script>
 
     <!-- Magme script -->
 

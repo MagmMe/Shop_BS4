@@ -35,6 +35,26 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/jquery.cookiebar-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/jquery.cookiebar-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/jquery.cookiebar.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/jquery.cookiebar-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/lightslider-min.css": {
 		"aP": 0,
 		"bl": 0,
@@ -657,6 +677,22 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/lang\/lang-eng.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/lang\/lang-eng.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/lang\/lang-pl.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/lang\/lang-pl.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/lightbox\/default-skin.png": {
 		"ft": 32768,
 		"iS": 547,
@@ -1081,6 +1117,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/jquery.cookiebar.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.cookiebar-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/lightslider-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1131,6 +1176,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/mdb-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/mdb-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1514,7 +1568,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 505137573,
-	"displayValue": "v1.2",
+	"displayValue": "v2.0",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-facepalm"
 	},

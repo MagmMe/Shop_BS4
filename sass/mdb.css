@@ -6564,6 +6564,35 @@ a {
   a:hover {
     color: pink; }
 
+.search-modal .modal-content {
+  top: 120px;
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.search-modal ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ff0084;
+  font-weight: 100;
+  font-size: 1.3rem;
+  line-height: 1.3rem; }
+
+.search-modal ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ff0084;
+  font-weight: 100;
+  font-size: 1.3rem; }
+
+.search-modal :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ff0084;
+  font-weight: 100;
+  font-size: 1.3rem; }
+
+.search-modal :-moz-placeholder {
+  /* Firefox 18- */
+  color: #ff0084;
+  font-weight: 100;
+  font-size: 1.3rem; }
+
 .hm-gradient-light .mask,
 .hm-gradient-light .full-bg-img {
   background: #ff0084;
@@ -6577,7 +6606,7 @@ a {
   background-color: transparent; }
 
 .navbar-brand {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   font-size: 3rem;
   color: pink !important; }
 
@@ -6589,6 +6618,12 @@ a {
     .navbar .navbar-nav .nav-item a {
       padding-left: 16px;
       font-weight: 100; }
+  .navbar .navbar-nav .item-lang {
+    padding: 0;
+    margin: 0; }
+  .navbar .navbar-nav .search-item {
+    font-size: 1.3rem;
+    padding-bottom: 3%; }
 
 .modal-header .close {
   margin-top: -2px;
@@ -6669,7 +6704,7 @@ a {
   background-color: rgba(28, 35, 49, 0.9); }
 
 #hero-main {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   font-size: 4rem; }
 
 #hero-sub {
@@ -6748,7 +6783,7 @@ a {
     margin-top: 20px;
     margin-bottom: 20px; }
   .main-magme .contact-card .contact-title {
-    font-family: 'Allura', cursive;
+    font-family: "Allura", cursive;
     font-size: 1.7rem; }
   .main-magme .contact-card span, .main-magme .contact-card a {
     color: #ff0084; }
@@ -6873,7 +6908,7 @@ footer.page-footer {
     color: #fff;
     font-size: 0.8rem; }
     footer.page-footer .footer-top .contact-title {
-      font-family: 'Allura', cursive; }
+      font-family: "Allura", cursive; }
     footer.page-footer .footer-top .column-footer {
       padding: 5%; }
     footer.page-footer .footer-top .btn {
@@ -6891,6 +6926,10 @@ footer.page-footer {
     color: #ccc;
     font-weight: 100;
     padding: 1%; }
+
+footer.page-footer.full-img-footer {
+  padding-top: 0;
+  margin-top: 0; }
 
 .carousel {
   height: 60%; }
@@ -7058,13 +7097,10 @@ footer.page-footer {
 
 @media only screen and (max-width: 321px) {
   #hero-main {
-    font-size: 2.3rem; }
-  .contact-card .contact-title {
-    display: none; }
-  .contact-card .contact-mail {
-    font-size: 9px !important; }
-  .newsletter-card {
-    display: none; } }
+    font-size: 2.3rem; } }
+
+.md-form .form-control {
+  font-size: 16px; }
 
 @media only screen and (max-width: 578px) {
   .view {
@@ -7132,16 +7168,39 @@ footer.page-footer {
   .zamowienie-site {
     padding-bottom: 10%; }
   #home-register .description {
-    display: none; } }
-
-@media only screen and (min-width: 579px) and (max-width: 779px) {
-  #hero-main {
-    font-size: 2.3rem; }
-  .form-inline .form-control {
-    width: 100%; }
-  .contact-card .contact-title {
     display: none; }
+  #home-register .register-form {
+    margin-top: 50%; }
+    #home-register .register-form h3 {
+      font-size: 1rem; }
+    #home-register .register-form .btn {
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      -o-transform: scale(0.8);
+      transform: scale(0.8); } }
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav .nav-item a {
+    font-size: 10px; }
+  #hero-main {
+    font-size: 3.3rem; }
+  .contact-card .contact-title {
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7); }
   .contact-card .contact-mail {
-    font-size: 12px !important; }
-  .newsletter-card {
-    display: none; } }
+    font-size: 12px; }
+  .newsletter-card .btn {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8); }
+  #home-register {
+    padding-top: 0;
+    margin-top: -40%; }
+  .header-checkout {
+    padding-top: 15%; } }

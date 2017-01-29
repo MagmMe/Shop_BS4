@@ -1,4 +1,15 @@
+// Global Var
 
+$font-family-primary: "Allura", cursive;
+$font-family-secondady: inherit;
+
+
+// Media Queries
+
+$iphone6Plus: "only screen and (max-width: 578px)";
+$iphone5: "only screen and (max-width: 321px)";
+$tablet: "only screen and (max-width: 768px)";
+$desktop: "only screen and (max-width: 960px)";
 
 
         html,
@@ -7,8 +18,7 @@
             height: 100%;
         }
 
-
-        // Scrolling navbar
+// Scrolling navbar
 
       .scrolling-navbar {
           -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -16,12 +26,12 @@
           transition: background .5s ease-in-out, padding .5s ease-in-out;
         }
 
-        .top-nav-collapse {
+       .top-nav-collapse {
           background-color: rgba(28, 35, 49, 0.9);
           padding: 0;
-       }
+          }
 
-      // Formularz kontaktowy Active
+ // Formularz kontaktowy Active
 
          .md-form label.active {
               font-size: 0.8rem;
@@ -32,19 +42,18 @@
               transform: translateY(-40%);
             }
 
-        // Formularz kontaktowy End
-
+  // Formularz kontaktowy End
 
         .view ul .arrow h1 a span{
           color: pink;
 
-          &:hover{
-            color: #ff0084;
-          }
+              &:hover{
+                color: #ff0084;
+              }
 
         }
 
-        /* Navigation*/
+ /* Navigation*/
 
         a{
             color: #fff;
@@ -54,6 +63,39 @@
             }
         }
 
+// Wyszukiwarka Modal
+
+          .search-modal{
+            .modal-content{
+              top: 120px;
+              background-color: rgba(255,255,255,.9);
+            }
+
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #ff0084;
+                font-weight: 100;
+                font-size: 1.3rem;
+                line-height: 1.3rem;
+              }
+              ::-moz-placeholder { /* Firefox 19+ */
+                color: #ff0084;
+                font-weight: 100;
+                font-size: 1.3rem;
+              }
+              :-ms-input-placeholder { /* IE 10+ */
+                color: #ff0084;
+                font-weight: 100;
+                font-size: 1.3rem;
+              }
+              :-moz-placeholder { /* Firefox 18- */
+                color: #ff0084;
+                font-weight: 100;
+                font-size: 1.3rem;
+              }
+          }
+
+
+// Alternatywna maska dla obrazka w Hero
 
         .hm-gradient-light .mask,
         .hm-gradient-light .full-bg-img {
@@ -64,12 +106,14 @@
 
         }
 
+// Nabvar Menu
+
         .navbar {
             background-color: transparent;
         }
 
         .navbar-brand {
-           font-family: 'Allura', cursive;
+           font-family: $font-family-primary;
            font-size: 3rem;
            color: pink !important;
         }
@@ -87,6 +131,17 @@
                             padding-left: 16px;
                             font-weight: 100;
                         }
+                }
+
+
+                .item-lang{
+                  padding: 0;
+                  margin: 0;
+                }
+
+                .search-item{
+                  font-size: 1.3rem;
+                  padding-bottom: 3%;
                 }
 
             }
@@ -228,7 +283,7 @@
         // Hero
 
       #hero-main{
-        font-family: 'Allura', cursive;
+        font-family: $font-family-primary;
         font-size: 4rem;
       }
 
@@ -369,7 +424,7 @@
                   .contact-card {
 
                         .contact-title{
-                          font-family: 'Allura', cursive;
+                          font-family: $font-family-primary;
                           font-size: 1.7rem;
                         }
 
@@ -551,7 +606,7 @@
             font-size: 0.8rem;
 
               .contact-title{
-                font-family: 'Allura', cursive;
+                font-family: $font-family-primary;
               }
 
               .column-footer{
@@ -588,6 +643,13 @@
               padding: 1%;
             }
 
+        }
+
+        // Footer dla stron Register, Forget
+
+        footer.page-footer.full-img-footer {
+          padding-top: 0;
+          margin-top: 0;
         }
 
 
@@ -712,6 +774,8 @@
       // Register
 
       #register-view {
+
+
 
         background: url("../img/hero_register.jpg")no-repeat center center fixed;
           -webkit-background-size: cover;
@@ -853,33 +917,25 @@
 
 
 
-  @media only screen and (max-width: 321px) {
+@media #{$iphone5}  {
 
     #hero-main{
             font-size: 2.3rem;
            }
-
-           .contact-card {
-
-                  .contact-title {
-
-               display: none;
-                  }
-
-                  .contact-mail{
-
-                   font-size: 9px !important;
-                  }
-           }
-
-        .newsletter-card{
-          display: none;
-        }
-
   }
 
+  // Reguła ograniczająca zoomowanie text-input w Formularzu w Safari na IPhone
 
- @media only screen and (max-width: 578px) {
+      .md-form{
+        .form-control{
+          font-size: 16px;
+        }
+      }
+
+  // Koniec Reguły
+
+
+@media #{$iphone6Plus} {
 
           .view {
             background: url("../img/hero_mobile.jpg") no-repeat !important;
@@ -1009,41 +1065,82 @@
                   display: none;
                 }
 
+                .register-form{
+                  margin-top: 50%;
+                    h3{
+                      font-size: 1rem;
+                    }
+
+                  .btn{
+                    -webkit-transform: scale(.8);
+                       -moz-transform: scale(.8);
+                        -ms-transform: scale(.8);
+                         -o-transform: scale(.8);
+                            transform: scale(.8);
+                  }
+                }
+
             }
 
 
 
   }
 
-@media only screen and (min-width: 579px) and (max-width:779px){
+@media #{$tablet}{
+
+// Wielkość fontu w menu
+
+  .navbar-nav {
+    .nav-item a{
+        font-size: 10px;
+    }
+  }
+
+  // Font w Hero
 
   #hero-main{
-            font-size: 2.3rem;
+        font-size: 3.3rem;
+        }
 
+// Wielkość fontu w Kontakt Box
 
-            }
-
-            .form-inline .form-control{
-
-              width: 100%;
-            }
-
-            .contact-card {
-
-                  .contact-title {
-                      display: none;
-                  }
-
-                  .contact-mail{
-
-                   font-size: 12px !important;
-                  }
-
-            }
-
-            .newsletter-card{
-                 display: none;
-                }
-
+.contact-card{
+  .contact-title{
+    -webkit-transform: scale(.7);
+       -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+         -o-transform: scale(.7);
+            transform: scale(.7);
+  }
+  .contact-mail{
+    font-size: 12px;
+  }
 }
 
+.newsletter-card{
+  .btn{
+    -webkit-transform: scale(.8);
+       -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+         -o-transform: scale(.8);
+            transform: scale(.8);
+  }
+}
+
+
+// Register site
+
+#home-register{
+  padding-top: 0;
+  margin-top: -40%;
+}
+
+
+// Checkout
+
+.header-checkout{
+  padding-top: 15%;
+}
+
+
+}

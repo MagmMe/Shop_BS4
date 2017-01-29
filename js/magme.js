@@ -1,5 +1,11 @@
 (function(){
 
+	// Cookie Bar
+
+	$(document).ready(function(){
+		  $.cookieBar();
+		});
+
 	// Wysuwane Menu na urządzeniach mobilnych
 
 	 $(document).ready(function () {
@@ -7,6 +13,8 @@
     	$('.row-offcanvas').toggleClass('active');
  		 });
 	});
+
+
 
 	 	$(document).ready(function() {
 			$("#content-slider").lightSlider({
