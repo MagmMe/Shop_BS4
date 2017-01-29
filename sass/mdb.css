@@ -6648,7 +6648,7 @@ a {
 .cart-menu {
   margin-top: -20px; }
   .cart-menu .nav-item {
-    padding-left: 15px; }
+    padding-left: 0; }
     .cart-menu .nav-item .nav-link {
       margin-left: 10px;
       font-size: 1.0rem; }
