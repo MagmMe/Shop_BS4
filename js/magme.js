@@ -1,10 +1,5 @@
 (function(){
 
-	// Cookie Bar
-
-	$(document).ready(function(){
-		  $.cookieBar();
-		});
 
 	// Wysuwane Menu na urządzeniach mobilnych
 
@@ -86,6 +81,15 @@
 		       scrollTop: target.offset().top - 200
 		    }, 1000);
 		});
+
+
+
+	// Cookie Bar
+
+
+	 $.cookieBar();
+
+
 
 
 }(jQuery));
