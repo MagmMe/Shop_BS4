@@ -917,6 +917,18 @@ $desktop: "only screen and (max-width: 960px)";
     }
 
 
+    // 404 page
+
+       .notfound-page{
+          a{
+            color:rgba(233, 30, 99, 0.7);
+          }
+
+        }
+
+
+
+
 
 @media #{$iphone5}  {
 

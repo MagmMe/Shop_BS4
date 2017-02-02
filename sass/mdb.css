@@ -7089,6 +7089,9 @@ footer.page-footer.full-img-footer {
   padding-top: 5%;
   padding-bottom: 5%; }
 
+.notfound-page a {
+  color: rgba(233, 30, 99, 0.7); }
+
 @media only screen and (max-width: 321px) {
   #hero-main {
     font-size: 2.3rem; } }
