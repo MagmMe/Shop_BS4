@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-     <link href="css/style-cart.css" rel="stylesheet">
-     <link href="sass/mdb.css" rel="stylesheet">
+    <link href="sass/mdb.css" rel="stylesheet">
 
 </head>
 
@@ -134,12 +133,13 @@
                   <div class="card wow fadeInLeft cart-main">
                     <div class="card-block">
                       <h2> <span class="lnr lnr-cart"></span> Twój koszyk</h2>
-                      <table class="table table-sm">
+                      <table class="table table-responsive">
                       <thead>
                         <tr>
                           <th>Id.</th>
                           <th>Produkt</th>
                           <th>Ilość</th>
+                          <th>Rozmiar</th>
                           <th>Cena</th>
                           <th>Usuń</th>
                         </tr>
@@ -149,29 +149,113 @@
                         <tr class="product-row">
                           <th scope="row"><img src="img/cart_mini1.jpg" alt="" class="img-fluid" width="30px"></th>
                           <td>Biustonosz</td>
-                          <td>1</td>
-                          <td class="price-in-cart">60</td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                            </select>
+                          </td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>A</option>
+                              <option value="2">B</option>
+                              <option value="3">C</option>
+                              <option value="4">D</option>
+                              <option value="5">E</option>
+                              <option value="6">F</option>
+                              <option value="7">G</option>
+                            </select>
+                          </td>
+                          <td class="price-in-cart">60 zł</td>
                           <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
                         </tr>
                         <tr class="product-row">
                           <th scope="row"><img src="img/cart_mini2.jpg" alt="" class="img-fluid" width="30px"></th>
                           <td>Biustonosz</td>
-                          <td>1</td>
-                          <td class="price-in-cart">70</td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                            </select>
+                          </td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>A</option>
+                              <option value="2">B</option>
+                              <option value="3">C</option>
+                              <option value="4">D</option>
+                              <option value="5">E</option>
+                              <option value="6">F</option>
+                              <option value="7">G</option>
+                            </select>
+                          </td>
+                          <td class="price-in-cart">70 zł</td>
                           <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
                         </tr>
                         <tr class="product-row">
                           <th scope="row"><img src="img/cart_mini1.jpg" alt="" class="img-fluid" width="30px"></th>
                           <td>Biustonosz</td>
-                          <td>1</td>
-                          <td class="price-in-cart">40</td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                            </select>
+                          </td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>A</option>
+                              <option value="2">B</option>
+                              <option value="3">C</option>
+                              <option value="4">D</option>
+                              <option value="5">E</option>
+                              <option value="6">F</option>
+                              <option value="7">G</option>
+                            </select>
+                          </td>
+                          <td class="price-in-cart">40 zł</td>
                           <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
                         </tr>
                         <tr class="product-row">
                           <th scope="row"><img src="img/cart_mini2.jpg" alt="" class="img-fluid" width="30px"></th>
                           <td>Biustonosz</td>
-                          <td>1</td>
-                          <td class="price-in-cart">40</td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                            </select>
+                          </td>
+                          <td>
+                            <select class="custom-select">
+                              <option selected>A</option>
+                              <option value="2">B</option>
+                              <option value="3">C</option>
+                              <option value="4">D</option>
+                              <option value="5">E</option>
+                              <option value="6">F</option>
+                              <option value="7">G</option>
+                            </select>
+                          </td>
+                          <td class="price-in-cart">40 zł</td>
                           <td><button class="btn btn-sm btn-pink remove-item">x</button></td>
                         </tr>
                         </div>
@@ -285,38 +369,6 @@
           </div>
       </div>
     </div>
-
-  <!-- Koszyk -->
-
-<div class="cd-cart-container empty">
-  <a href="#0" class="cd-cart-trigger">
-    Koszyk
-    <ul class="count"> <!-- cart items count -->
-      <li>0</li>
-      <li>0</li>
-    </ul> <!-- .count -->
-  </a>
-
-  <div class="cd-cart">
-    <div class="wrapper">
-      <header>
-        <h2>Twój Koszyk</h2>
-        <span class="undo">Usunąłeś produkt. <a href="#0">Cofnij</a></span>
-      </header>
-
-      <div class="body">
-        <ul>
-          <!-- products added to the cart will be inserted here using JavaScript -->
-        </ul>
-      </div>
-
-      <footer>
-        <a href="checkout.html" class="checkout"><em>Suma koszyka: <span>0</span> zł</em></a>
-      </footer>
-    </div>
-  </div> <!-- .cd-cart -->
-</div> <!-- cd-cart-container -->
-
 
               <footer class="page-footer full-img-footer">
                 <div class="container-fluid">
@@ -480,10 +532,6 @@
 
     <!--Google Maps-->
     <script src="http://maps.google.com/maps/api/js"></script>
-
-    <!-- Efekt koszyka -->
-
-    <script src="js/main.js"></script>
 
     <!-- Magme script -->
 

@@ -858,10 +858,11 @@ $desktop: "only screen and (max-width: 960px)";
       .checkout-container{
         padding-top: 3%;
         padding-bottom: 5%;
-      }
+
+
   }
 
-
+}
   // Single product
 
     .product-main-container{
@@ -872,15 +873,15 @@ $desktop: "only screen and (max-width: 960px)";
             color: rgba(233, 30, 99, 0.7);
           }
 
-          #image-gallery{
-              list-style: none outside none;
-                padding-left: 0;
-                    margin: 0;
-          }
+          // #image-gallery{
+          //     list-style: none outside none;
+          //       padding-left: 0;
+          //           margin: 0;
+          // }
 
-          .lSSlideOuter .lSPager.lSGallery{
-            margin: 0 auto;
-          }
+          // .lSSlideOuter .lSPager.lSGallery{
+          //   margin: 0 auto;
+          // }
 
           .breadcrumb{
           background-color: white;
@@ -970,7 +971,7 @@ $desktop: "only screen and (max-width: 960px)";
 
 
 
-           // Mobilne Menu Początek
+// Mobilne Menu Początek
 
             .main-magme {
                 overflow: hidden;
@@ -1015,10 +1016,10 @@ $desktop: "only screen and (max-width: 960px)";
                 width: 50% ; /* 6 columns*/
                     }
 
-                 // Mobilne Menu Koniec
+ // Mobilne Menu Koniec
 
 
-              // Pasek Wyszukiwarki pod mneu
+ // Pasek Wyszukiwarki pod mneu
               .sidebar-offcanvas .search-sidebar h4 {
 
                 -webkit-transform: scale(0.8);
@@ -1028,7 +1029,7 @@ $desktop: "only screen and (max-width: 960px)";
                         transform: scale(0.8);
               }
 
-              // Koniec Paska wyszukiwarki
+ // Koniec Paska wyszukiwarki
 
 
             .navbar {
@@ -1056,8 +1057,7 @@ $desktop: "only screen and (max-width: 960px)";
 
             }
 
-
-            // Register Site
+ // Register Site
 
             #home-register{
 

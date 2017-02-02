@@ -14,7 +14,6 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
-    <link href="css/style-cart.css" rel="stylesheet">
     <link href="sass/mdb.css" rel="stylesheet">
 </head>
 
@@ -74,7 +73,7 @@
                         <a class="nav-link" href="#contact" data-toggle="modal" data-target="#loginForm"><span class="lnr lnr-user"></span> Konto</a>
                     </li>
                     <li class="nav-item btn-group">
-                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="nav-counter">3</span> <span class="lnr lnr-cart"></span> Koszyk </a>
+                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="nav-counter">3</span> <span class="lnr lnr-cart shopping-cart"></span> Koszyk </a>
 
                             <div class="dropdown-menu dropdown-cart" aria-labelledby="dropdownMenu1">
 
@@ -467,7 +466,7 @@
                         </select>
                           <hr>
                           <h3>Cena: 78.82zł/szt.</h3>
-                          <a href="#0" class="cd-add-to-cart btn-sm btn-pink"  data-price="40.99"><span class="lnr lnr-cart"></span> Dodaj do koszyka</a>
+                          <a href="#0" class="btn btn-pink"  data-price="78.82"><span class="lnr lnr-cart"></span> Dodaj do koszyka</a>
 
 
                       </div>
@@ -661,37 +660,6 @@
 
   </div>
 
-  <!-- Koszyk -->
-
-<div class="cd-cart-container empty">
-  <a href="#0" class="cd-cart-trigger">
-    Koszyk
-    <ul class="count"> <!-- cart items count -->
-      <li>0</li>
-      <li>0</li>
-    </ul> <!-- .count -->
-  </a>
-
-  <div class="cd-cart">
-    <div class="wrapper">
-      <header>
-        <h2>Twój Koszyk</h2>
-        <span class="undo">Usunąłeś produkt. <a href="#0">Cofnij</a></span>
-      </header>
-
-      <div class="body">
-        <ul>
-          <!-- products added to the cart will be inserted here using JavaScript -->
-        </ul>
-      </div>
-
-      <footer>
-        <a href="checkout.html" class="checkout"><em>Suma koszyka: <span>0</span> zł</em></a>
-      </footer>
-    </div>
-  </div> <!-- .cd-cart -->
-</div> <!-- cd-cart-container -->
-
 
               <footer class="page-footer">
                 <div class="container-fluid">
@@ -855,10 +823,6 @@
 
     <!--Google Maps-->
     <script src="http://maps.google.com/maps/api/js"></script>
-
-     <!-- Efekt koszyka -->
-
-    <script src="js/main.js"></script>
 
     <!-- Magme script -->
 

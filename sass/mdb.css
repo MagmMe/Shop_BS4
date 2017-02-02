@@ -7066,12 +7066,6 @@ footer.page-footer.full-img-footer {
   padding-top: 5%; }
   .product-main-container h2 {
     color: rgba(233, 30, 99, 0.7); }
-  .product-main-container #image-gallery {
-    list-style: none outside none;
-    padding-left: 0;
-    margin: 0; }
-  .product-main-container .lSSlideOuter .lSPager.lSGallery {
-    margin: 0 auto; }
   .product-main-container .breadcrumb {
     background-color: white; }
     .product-main-container .breadcrumb a {
